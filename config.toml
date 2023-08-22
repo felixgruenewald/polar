@@ -1,13 +1,13 @@
 baseURL = "https://polar.netlify.app/"
 languageCode = "en-us"
-title = "Felix Grünewald"
+title = "polaR"
 theme = "digitalgarden"
 
 googleAnalytics = "UA-PROPERTY_ID"
 
 
 [Params]
-  description = "My Digital Garden on the Internet"
+  description = "An encyclopedia of polarisation"
   images = ['/digital-garden-logo.png']
   enableSearch = true
 
