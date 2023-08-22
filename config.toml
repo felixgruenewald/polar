@@ -1,0 +1,97 @@
+baseURL = "https://polar.netlify.app/"
+languageCode = "en-us"
+title = "Felix Grünewald"
+theme = "digitalgarden"
+
+googleAnalytics = "UA-PROPERTY_ID"
+
+
+[Params]
+  description = "My Digital Garden on the Internet"
+  images = ['/digital-garden-logo.png']
+  enableSearch = true
+
+# [Params.newsletter]
+#   title = ""
+#   description = "A curated weekly digest once a week to your mailbox"
+# 
+#   # Supports buttondown, substack and revue
+#   provider = "buttondown"
+# 
+#   # Buttondown - URL from share page; Refer: https://blog.buttondown.email/2019/10/11/adding-a-buttondown-subscription-form-to-webflow#getting-your-subscription-url
+#   # Substack - URL of the newsletter homepage; Example: https://on.substack.com/
+#   # Revue - Username
+#   path = "https://buttondown.email/api/emails/embed-subscribe/"
+
+[menu]
+[[menu.main]]
+  name = 'Home'
+  url = '/'
+  weight = 1
+[[menu.main]]
+  name = 'About'
+  url = '/about'
+  weight = 2
+[[menu.main]]
+  name = 'Encyclopedia'
+  params.header = true
+  weight = 2
+[[menu.main]]
+  name = 'Measures'
+  url = '/measures'
+  weight = 3
+[[menu.main]]
+  name = 'Levels'
+  url = '/levels'
+  weight = 4
+[[menu.main]]
+  name = 'Data'
+  url = '/data'
+  weight = 5
+[[menu.main]]
+  name = 'See more'
+  url = '/stack'
+  weight = 6
+
+[[menu.main]]
+  name = 'polaR app'
+  params.header = true
+  weight = 8
+[[menu.main]]
+  name = 'Tagesschau App'
+  url = '/projects/polar/'
+  weight = 9
+
+[[menu.social]]
+  name = 'Twitter'
+  url = 'https://twitter.com/felixgruenewald'
+  weight = 1
+[[menu.social]]
+  name = 'Mastodon'
+  url = 'https://mastodon.online/@felixgruenewald'
+  weight = 2
+[[menu.social]]
+  name = 'GitHub'
+  url = 'https://github.com/felixgruenewald'
+  weight = 3
+[[menu.social]]
+  name = 'Email'
+  url = 'mailto:felixgruenewald@outlook.de'
+  weight = 8
+[[menu.social]]
+  name = 'RSS'
+  url = '/articles/index.xml'
+  weight = 9
+[[menu.social]]
+  name = 'ORCID'
+  url = 'https://orcid.org/0000-0002-6179-6693'
+  weight = 10
+
+
+# syntax highlight settings
+[markup]
+  [markup.highlight]
+    style = "dracula"
+  [markup.goldmark.renderer]
+    # Enable to include inline HTML
+    unsafe = true
