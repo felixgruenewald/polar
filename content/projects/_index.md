@@ -1,3 +1,3 @@
 ---
-title: Levels
+title: Direct Links
 ---

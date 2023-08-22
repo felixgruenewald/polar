@@ -1,7 +1,9 @@
 ---
 title: "API"
 subtitle: Affective Polarisation Index
-publication: Media & Communication
+authors: more info here
+date: 2023-06-24
+publication: or here etc.
 images: 
 ---
 
@@ -23,7 +25,8 @@ Unweighted: $Distance_i = \sqrt{\frac{\sum_{p=1}^p (like_{ip} - like_{max,i})^2}
 Weighted: $Distance_i = \sqrt{\sum_{p=1}^p v_p (like_{ip} - like_{max,i})^2}$
 
 The subscript $i$ denotes an individual respondent, $p$ denotes a party, $max$ is the most liked party, and $v_p$ is the percentage of votes received by a party.
-# polaR
+
+# polaR code
 ---
 
 ```r
@@ -34,10 +37,8 @@ cses_imd <- distance(cses_imd)
 ```
 
 # Use cases
----
-*Publications that use this measure*:
 
-
+<div class="block-language-dataview node-insert-event"><table class="dataview table-view-table"><thead class="table-view-thead"><tr class="table-view-tr-header"><th class="table-view-th"><span>Authors</span><span class="dataview small-text">2</span></th><th class="table-view-th"><span>Year</span></th><th class="table-view-th"><span>Title</span></th><th class="table-view-th"><span>Publication</span></th><th class="table-view-th"><span>DOI</span></th></tr></thead><tbody class="table-view-tbody"><tr><td><span>-</span></td><td><span>-</span></td><td><span>-</span></td><td><span>-</span></td><td><span>-</span></td></tr><tr><td><span>Markus Wagner</span></td><td>2021</td><td><span>Affective polarization in multiparty systems</span></td><td><span>Electoral Studies</span></td><td><span><a data-tooltip-position="top" aria-label="https://doi.org/10.1016/j.electstud.2020.102199" rel="noopener" class="external-link" href="https://doi.org/10.1016/j.electstud.2020.102199" target="_blank">10.1016/j.electstud.2020.102199</a></span></td></tr></tbody></table></div>
 
 # Data
 
