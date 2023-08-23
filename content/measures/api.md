@@ -40,7 +40,7 @@ cses_imd <- distance(cses_imd)
 
 <iframe src="https://felixgruenewald.shinyapps.io/polarapp/?dataset=cses_imd,cses_5&measure=api"
     frameborder="0"
-    scrolling="no" 
-    style="overflow:hidden;height:600;width:100%" 
+    scrolling="yes" 
+    style="overflow:hidden;width:100%" 
     height="1000" 
     width="100%"></iframe>
