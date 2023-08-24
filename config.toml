@@ -25,7 +25,7 @@ googleAnalytics = "UA-PROPERTY_ID"
 
 [menu]
 [[menu.main]]
-  name = 'Home'
+  name = '🏠 Home'
   url = '/'
   weight = 1
 [[menu.main]]

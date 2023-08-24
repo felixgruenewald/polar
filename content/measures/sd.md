@@ -1,6 +1,6 @@
 ---
-title: "Distance"
-subtitle: Distance between outmost parties
+title: "SD"
+subtitle: Standard Deviation
 authors: more info here
 date: 2023-06-24
 publication: or here etc.
@@ -9,7 +9,7 @@ images:
 
 # Data
 
-<iframe src="https://felixgruenewald.shinyapps.io/polarapp/?dataset=cses&measure=distance"
+<iframe src="https://felixgruenewald.shinyapps.io/polarapp/?dataset=eb&measure=sd"
     frameborder="0"
     scrolling="no" 
     style="overflow:hidden;height:600;width:100%" 

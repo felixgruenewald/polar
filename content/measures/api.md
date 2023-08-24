@@ -38,7 +38,7 @@ cses_imd <- distance(cses_imd)
 
 # Data
 
-<iframe src="https://felixgruenewald.shinyapps.io/polarapp/?dataset=cses_imd,cses_5&measure=api"
+<iframe src="https://felixgruenewald.shinyapps.io/polarapp/?dataset=cses&measure=api"
     frameborder="0"
     scrolling="yes" 
     style="overflow:hidden;width:100%" 
