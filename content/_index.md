@@ -2,7 +2,7 @@
 title: polaR
 ---
 
-<!--![](/images/polarlogo.png)-->
+[](/images/polarlogo.png)
 
 # Encyclopedia of Polarization
 
