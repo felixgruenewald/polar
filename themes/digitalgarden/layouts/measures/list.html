@@ -13,19 +13,21 @@
       <a class="article block px-3 py-4 hover:bg-slate-200 dark:hover:bg-slate-700" href="{{ .RelPermalink }}">
 
         {{ $title := .Params.title }}
-        {{ $subtitle := .Params.subtitle }}
-        {{ $authors := .Params.authors }}
-        {{ $publication := .Params.publication }}
-        {{ $date := .Params.date.Format "January 2, 2006" }}
-        <h3 class="text-lg font-semibold mb-0.5">{{ $title }}</h3>
+        {{ $name := .Params.name }}
+        {{ $polarisation := .Params.polarisation }}
+        {{ $level := .Params.level }}
+        {{ $data := .Params.data }}
+        {{ $usecases := .Params.usecases }}
+
+        <h3 class="text-lg font-semibold mb-0.5">{{ $name }}</h3>
         <div class="text-sm text-slate-500 dark:text-slate-400 line-clamp-2">
-          <i>{{ $subtitle}}</i>
+          <i>{{ $title }}</i>
         </div>
         <div class="text-sm text-slate-500 dark:text-slate-400 line-clamp-2">
-          <b>{{ $authors}}</b>
+          <b>Polarisation: {{ $polarisation }}</b>
         </div>
         <div class="text-sm text-slate-500 dark:text-slate-400 line-clamp-2">
-          {{ $publication }}; {{ $date}}
+          Level: {{ $level }}
         </div>
       </a>
       {{ end -}}

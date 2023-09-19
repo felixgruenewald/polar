@@ -1,10 +1,15 @@
 ---
-title: "Distance"
-subtitle: Distance between outmost parties
-authors: more info here
-date: 2023-06-24
-publication: or here etc.
-images: 
+name: "Distance"
+title: "Distance between outmost parties"
+polarisation:
+    affective
+level:
+    mass
+data:
+    cses
+usecases:
+    wagner_affective_2021
+math: true
 ---
 
 # Data

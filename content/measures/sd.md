@@ -1,10 +1,15 @@
 ---
-title: "SD"
-subtitle: Standard Deviation
-authors: more info here
-date: 2023-06-24
-publication: or here etc.
-images: 
+name: "SD"
+title: "Standard Deviation"
+polarisation:
+    ideological
+level:
+    mass
+data:
+    cses
+usecases:
+    wagner_affective_2021
+math: true
 ---
 
 # Data

@@ -19,19 +19,21 @@
       <a class="article block px-3 py-4 {{ if $isCurrentPage }} bg-slate-900 dark:bg-slate-700 text-slate-50 {{ else }} hover:bg-slate-200 dark:hover:bg-slate-700 {{ end }}"
         href="{{ .RelPermalink }}">
         {{ $title := .Params.title }}
-        {{ $subtitle := .Params.subtitle }}
-        {{ $authors := .Params.authors }}
-        {{ $publication := .Params.publication }}
-        {{ $date := .Params.date.Format "January 2, 2006" }}
-        <h3 class="text-lg font-semibold mb-0.5">{{ $title }}</h3>
+        {{ $name := .Params.name }}
+        {{ $polarisation := .Params.polarisation }}
+        {{ $level := .Params.level }}
+        {{ $data := .Params.data }}
+        {{ $usecases := .Params.usecases }}
+
+        <h3 class="text-lg font-semibold mb-0.5">{{ $name }}</h3>
         <div class="text-sm text-slate-500 dark:text-slate-400 line-clamp-2">
-          <i>{{ $subtitle}}</i>
+          <i>{{ $title }}</i>
         </div>
         <div class="text-sm text-slate-500 dark:text-slate-400 line-clamp-2">
-          <b>{{ $authors}}</b>
+          <b>Polarisation: {{ $polarisation }}</b>
         </div>
         <div class="text-sm text-slate-500 dark:text-slate-400 line-clamp-2">
-          {{ $publication }}; {{ $date}}
+          Level: {{ $level }}
         </div>
       </a>
       {{ end -}}
@@ -43,13 +45,16 @@
     <article class="px-6 py-20 w-full mx-auto prose lg:prose-lg h-fit dark:prose-invert prose-img:mx-auto">
 
       {{ $title := .Params.title }}
-      {{ $subtitle := .Params.subtitle }}
-      {{ $authors := .Params.authors }}
-      {{ $publication := .Params.publication }}
-      {{ $date := .Params.date.Format "January 2, 2006" }}
-      <h1 class="!mb-2">{{ $title }}</h1>
-      <h4 class="!mb-2">{{ $subtitle }}</h4>
-      <h6 class="!mb-2">{{ $publication }}. {{ $date }}</h6>
+      {{ $polarisation := .Params.polarisation }}
+      {{ $level := .Params.level }}
+      {{ $data := .Params.data }}
+      {{ $usecases := .Params.usecases }}
+
+      <h1 class="!mb-2">{{ $title }}</h1><br>
+      <b>Polarisation:</b> <a href="/polarisation/{{ $polarisation }}">{{ $polarisation }}</a><br>
+      <b>Level:</b> <a href="/levels/{{ $level }}">{{ $level }}</a><br>
+      <b>Data:</b> <a href="/data/{{ $data }}">{{ $data }}</a><br>
+      <b>Use cases:</b> <a href="/usecases/{{ $usecases }}">{{ $usecases }}</a><br><br>
 
       {{ .Content }}
     </article>
