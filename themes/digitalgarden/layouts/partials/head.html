@@ -24,6 +24,66 @@
 
   <link rel="stylesheet" href="{{ "/css/main.css" | absURL}}" />
 
+  <!-- Custom css insertion -->
+  <link href="{{ .Site.BaseURL }}css/boxes.css" rel="stylesheet">
+
+  <!-- Textboxes in Info Box -->
+  <style>
+    .textboxes {
+     border-width:1px;
+     border-style:solid;
+     border-color:#5b7d9a;
+     background: #bebebe77;
+     padding-left: 2mm; padding-right: 2mm; padding-bottom: 1mm;
+     border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    }
+  </style>
+<!-- Capitalize -->
+  <style>
+    .textboxescap {
+     border-width:1px;
+     border-style:solid;
+     border-color:#5b7d9a;
+     background: #bebebe77;
+     text-transform: capitalize;
+     padding-left: 2mm; padding-right: 2mm; padding-bottom: 1mm;
+     border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    }
+  </style>
+<!-- Upper Case -->
+<style>
+  .textboxesupper {
+   border-width:1px;
+   border-style:solid;
+   border-color:#5b7d9a;
+   background: #bebebe77;
+   text-transform: uppercase;
+   padding-left: 2mm; padding-right: 2mm; padding-bottom: 1mm;
+   border-radius: 20px 20px 20px 20px;
+  -moz-border-radius: 20px 20px 20px 20px;
+  -webkit-border-radius: 20px 20px 20px 20px;
+  }
+</style>
+<!-- Greyed Out -->
+<style>
+  .textboxessec {
+   border-width:1px;
+   border-style:solid;
+   border-color:#5b7d9a;
+   background: #e5e5e577;
+   text-transform: uppercase;
+   font-size: small;
+   padding-left: 2mm; padding-right: 2mm; padding-bottom: 1mm;
+   border-radius: 20px 20px 20px 20px;
+  -moz-border-radius: 20px 20px 20px 20px;
+  -webkit-border-radius: 20px 20px 20px 20px;
+  }
+</style>
+
   <!-- Katex support -->
   {{ if .Params.math }}
     <link

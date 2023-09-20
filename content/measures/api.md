@@ -2,13 +2,19 @@
 name: "API"
 title: "Affective Polarisation Index"
 polarisation:
-    affective
+    - affective
+    - ideological
 level:
-    mass
+    - mass
+measures:
+    - api
+    - sd
 data:
-    cses
+    - cses
+data_sec:
+    - ess
 usecases:
-    wagner_affective_2021
+    - wagner_affective_2021
 math: true
 ---
 

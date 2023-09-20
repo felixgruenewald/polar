@@ -2,13 +2,13 @@
 name: "Distance"
 title: "Distance between outmost parties"
 polarisation:
-    affective
+    - affective
 level:
-    mass
+    - mass
 data:
-    cses
+    - cses
 usecases:
-    wagner_affective_2021
+    - wagner_affective_2021
 math: true
 ---
 

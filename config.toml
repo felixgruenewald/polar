@@ -37,39 +37,41 @@ googleAnalytics = "UA-PROPERTY_ID"
   params.header = true
   weight = 2
 [[menu.main]]
+  name = 'Polarisation'
+  url = '/polarisation'
+  weight = 3
+[[menu.main]]
   name = 'Measures'
   url = '/measures'
-  weight = 3
+  weight = 4
 [[menu.main]]
   name = 'Levels'
   url = '/levels'
-  weight = 4
+  weight = 5
 [[menu.main]]
   name = 'Data'
   url = '/data'
-  weight = 5
-[[menu.main]]
-  name = 'See more'
-  url = '/stack'
   weight = 6
+[[menu.main]]
+  name = 'Articles'
+  url = '/usecases'
+  weight = 7
 
 [[menu.main]]
   name = 'Direct Links'
   params.header = true
-  weight = 7
+  weight = 9
 [[menu.main]]
   name = 'polaR app'
   url = '/projects/polar/'
-  weight = 8
+  weight = 10
+[[menu.main]]
+  name = 'See more'
+  url = '/stack'
+  weight = 11
 
-[[menu.social]]
-  name = 'Twitter'
-  url = 'https://twitter.com/felixgruenewald'
-  weight = 1
-[[menu.social]]
-  name = 'Mastodon'
-  url = 'https://mastodon.online/@felixgruenewald'
-  weight = 2
+
+
 [[menu.social]]
   name = 'GitHub'
   url = 'https://github.com/felixgruenewald'

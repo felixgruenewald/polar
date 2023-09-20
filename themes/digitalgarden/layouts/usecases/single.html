@@ -18,10 +18,22 @@
       {{ $isCurrentPage := eq .RelPermalink $permalink }}
       <a class="article block px-3 py-4 {{ if $isCurrentPage }} bg-slate-900 dark:bg-slate-700 text-slate-50 {{ else }} hover:bg-slate-200 dark:hover:bg-slate-700 {{ end }}"
         href="{{ .RelPermalink }}">
+
         {{ $title := .Params.title }}
         {{ $subtitle := .Params.subtitle }}
+        {{ $authors := .Params.authors }}
+        {{ $publication := .Params.publication }}
+        {{ $date := .Params.date.Format "2006" }}
         <h3 class="text-lg font-semibold mb-0.5">{{ $title }}</h3>
-        <div class="text-sm text-slate-500 dark:text-slate-400 line-clamp-2"><i>{{ $subtitle}}</i></div>
+        <div class="text-sm text-slate-500 dark:text-slate-400 line-clamp-2">
+          <i>{{ $subtitle}}</i>
+        </div>
+        <div class="text-sm text-slate-500 dark:text-slate-400 line-clamp-2">
+          <b>{{ $authors}}</b>
+        </div>
+        <div class="text-sm text-slate-500 dark:text-slate-400 line-clamp-2">
+          {{ $publication }}, {{ $date}}
+        </div>
 
       </a>
       {{ end -}}
@@ -34,11 +46,14 @@
 
       {{ $title := .Params.title }}
       {{ $subtitle := .Params.subtitle }}
+      {{ $authors := .Params.authors }}
+      {{ $publication := .Params.publication }}
+      {{ $date := .Params.date.Format "2006" }}
       <h1 class="!mb-2">{{ $title }}</h1>
-      <h4 class="!mb-2">{{ $subtitle }}</h4>
+      <h4 class="!mb-2">{{ $authors }}</h4>
+      <h6 class="!mb-2">{{ $publication }}, {{ $date }}</h6>
 
       {{ .Content }}
-      
     </article>
   </div>
 

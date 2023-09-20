@@ -30,10 +30,10 @@
           <i>{{ $title }}</i>
         </div>
         <div class="text-sm text-slate-500 dark:text-slate-400 line-clamp-2">
-          <b>Polarisation: {{ $polarisation }}</b>
+          <b>Polarisation:</b>{{ range .Params.polarisation }}<span style="text-transform: capitalize;"> {{ . }} </span>{{end}}</b>
         </div>
         <div class="text-sm text-slate-500 dark:text-slate-400 line-clamp-2">
-          Level: {{ $level }}
+          <b>Level:</b>{{ range .Params.level }}<span style="text-transform: capitalize;"> {{ . }} </span>{{end}}</b>
         </div>
       </a>
       {{ end -}}
@@ -42,7 +42,7 @@
   </section>
 
   <div class="overflow-y-auto h-screen w-full">
-    <article class="px-6 py-20 w-full mx-auto prose lg:prose-lg h-fit dark:prose-invert prose-img:mx-auto">
+    <article class="px-6 py-20 w-full mx-auto prose lg:prose-lg h-fit prose-img:mx-auto">
 
       {{ $title := .Params.title }}
       {{ $polarisation := .Params.polarisation }}
@@ -50,13 +50,29 @@
       {{ $data := .Params.data }}
       {{ $usecases := .Params.usecases }}
 
-      <h1 class="!mb-2">{{ $title }}</h1><br>
-      <b>Polarisation:</b> <a href="/polarisation/{{ $polarisation }}">{{ $polarisation }}</a><br>
-      <b>Level:</b> <a href="/levels/{{ $level }}">{{ $level }}</a><br>
-      <b>Data:</b> <a href="/data/{{ $data }}">{{ $data }}</a><br>
-      <b>Use cases:</b> <a href="/usecases/{{ $usecases }}">{{ $usecases }}</a><br><br>
+      <article class="dark:prose-invert"><h1 class="!mb-2">{{ $title }}</h1></article>
+      
+      <!-- Draw a box around the properties -->
+      <div class="boxInfo"><b>Quick Info</b><br>
+        <b>Polarisation:</b>{{ range .Params.polarisation }}
+          <a href="/polarisation/{{ . }}"><span class="textboxescap">{{ . }}</span></a>
+          {{ end }}<br>
+        <b>Level:</b>{{ range .Params.level }}
+          <a href="/levels/{{ . }}"><span class="textboxescap">{{ . }}</span></a>
+          {{ end }}<br>
+        <b>Data:</b>{{ range .Params.data }}
+          <a href="/data/{{ . }}"><span class="textboxesupper">{{ . }}</span></a>
+          {{ end }}
+          {{ range .Params.data_sec }}
+          <a href="/data/{{ . }}"><span class="textboxessec">{{ . }}</span></a>
+          {{ end }}<br>
+        <b>Use Cases:</b>{{ range .Params.usecases }}
+          <a href="/usecases/{{ . }}"><span class="textboxes">@{{ . }}</span></a>
+          {{ end }}<br>
+      </div><br>
 
-      {{ .Content }}
+      <article class="dark:prose-invert prose lg:prose-lg">{{ .Content }}</article>
+      
     </article>
   </div>
 
