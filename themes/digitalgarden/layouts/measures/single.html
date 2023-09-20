@@ -42,7 +42,7 @@
   </section>
 
   <div class="overflow-y-auto h-screen w-full">
-    <article class="px-6 py-20 w-full mx-auto prose lg:prose-lg h-fit prose-img:mx-auto">
+    <article class="px-6 py-20 w-full mx-auto dark:prose-invert prose lg:prose-lg h-fit prose-img:mx-auto">
 
       {{ $title := .Params.title }}
       {{ $polarisation := .Params.polarisation }}
@@ -50,28 +50,29 @@
       {{ $data := .Params.data }}
       {{ $usecases := .Params.usecases }}
 
-      <article class="dark:prose-invert"><h1 class="!mb-2">{{ $title }}</h1></article>
+      <h1 class="!mb-2">{{ $title }}</h1>
       
       <!-- Draw a box around the properties -->
-      <div class="boxInfo"><b>Quick Info</b><br>
+      <div class="not-prose"> 
+      <div class="boxInfo" style="color: black;"><b>Quick Info</b><br>
         <b>Polarisation:</b>{{ range .Params.polarisation }}
-          <a href="/polarisation/{{ . }}"><span class="textboxescap">{{ . }}</span></a>
+          <a href="/polarisation/{{ . }}"><span class="textbubbles capitalize">{{ . }}</span></a>
           {{ end }}<br>
         <b>Level:</b>{{ range .Params.level }}
-          <a href="/levels/{{ . }}"><span class="textboxescap">{{ . }}</span></a>
+          <a href="/levels/{{ . }}"><span class="textbubbles capitalize">{{ . }}</span></a>
           {{ end }}<br>
         <b>Data:</b>{{ range .Params.data }}
-          <a href="/data/{{ . }}"><span class="textboxesupper">{{ . }}</span></a>
+          <a href="/data/{{ . }}"><span class="textbubbles uppercase">{{ . }}</span></a>
           {{ end }}
           {{ range .Params.data_sec }}
-          <a href="/data/{{ . }}"><span class="textboxessec">{{ . }}</span></a>
+          <a href="/data/{{ . }}"><span class="textbubblessec">{{ . }}</span></a>
           {{ end }}<br>
         <b>Use Cases:</b>{{ range .Params.usecases }}
-          <a href="/usecases/{{ . }}"><span class="textboxes">@{{ . }}</span></a>
+          <a href="/usecases/{{ . }}"><span class="textbubbles">@{{ . }}</span></a>
           {{ end }}<br>
-      </div><br>
-
-      <article class="dark:prose-invert prose lg:prose-lg">{{ .Content }}</article>
+      </div></div><br>
+      
+      {{ .Content }}
       
     </article>
   </div>
