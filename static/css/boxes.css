@@ -31,6 +31,7 @@
     /* Better Font Rendering =========== */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+
   }
   
   [class^="box"]::before {
@@ -87,7 +88,8 @@
     background-color: #bde5f8;
   }
   
+  /* Change behaviour of links: */
   a:link { text-decoration: none; }
   a:visited { text-decoration: none; }
-  a:hover { text-decoration: none; color: #00529b; font-weight: bold;}
+  a:hover { text-decoration: none; color: #00529b;}
   a:active { text-decoration: underline;}
