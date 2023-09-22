@@ -1,5 +1,6 @@
 ---
-title: CHES
+name: CHES
+title: Chapel Hill Expert Surveys
 ---
 
 # Description

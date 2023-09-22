@@ -1,5 +1,6 @@
 ---
-title: EES
+name: EES
+title: European Election Studies
 ---
 # Description
 

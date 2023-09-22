@@ -1,5 +1,6 @@
 ---
-title: ESS
+name: ESS
+title: European Social Survey
 ---
 # Description
 

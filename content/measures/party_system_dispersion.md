@@ -12,8 +12,8 @@ variables:
 usecases: 
  - ezrow_variance_2007
  - dreyer_does_2019,
+math: true
 ---
-
 # Description
 ---
 [ezrow_variance_2007]({{< ref "ezrow_variance_2007" >}}) proposed the (Weighted) Party System Dispersion measure, which is basically a weighted standard deviation formula. Both [ezrow_variance_2007]({{< ref "ezrow_variance_2007" >}}) and [dreyer_does_2019]({{< ref "dreyer_does_2019" >}}) use MARPOR data to measure party positions, but in principle it can be used with other datasets that contain the required information, i.e. party positions.
@@ -21,7 +21,8 @@ usecases:
 ---
 The (weighted) party system dispersion is measured as follows:
 
-$$Weighted~party~system~dispersion = \sqrt{\sum_{j=1} VS_{j} (P_{jk} - \bar{P}_k)^2}$$
+$Weighted~party~system~dispersion = \sqrt{\sum_{j=1} VS_{j} (P_{jk} - \bar{P}_k)^2}$
+
 where $P_{jk}$ is the ideological position of party $j$ in country $k$ and $\bar{P_k}$ is the weighted average of the left-right ideological positions of all parties in country year $k$. VS_j$ is the vote share of party $j$ in the last national election.
 # polaR
 ---

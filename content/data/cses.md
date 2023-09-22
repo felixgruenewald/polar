@@ -1,5 +1,6 @@
 ---
-title: CSES
+name: CSES
+title: Comparative Study of Electoral Systems
 ---
 # Description
 

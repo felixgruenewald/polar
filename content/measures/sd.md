@@ -19,8 +19,8 @@ usecases:
  - hobolt_mobilising_2019
  - bischof_voters_2019
  - moral_relationship_2023
+math: true
 ---
-
 # Description
 ---
 Of course, polarization, i.e. the distribution of party or voter positions, can also be measured by calculating the standard deviation. It is used by a number of scholars, primarily to measure ideological polarization among the mass public, based on [cses]({{< ref "cses" >}}), [eb]({{< ref "eb" >}}) and [ees]({{< ref "ees" >}}) data.

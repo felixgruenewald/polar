@@ -1,5 +1,6 @@
 ---
-title: WVS
+name: WVS
+title: World Value Survey
 ---
 # Description
 

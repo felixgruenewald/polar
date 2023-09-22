@@ -1,5 +1,6 @@
 ---
-title: MARPOR
+name: MARPOR
+title: Manifesto
 ---
 # Description
 

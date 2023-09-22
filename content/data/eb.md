@@ -1,4 +1,5 @@
 ---
+name: EB
 title: Eurobarometer
 ---
 

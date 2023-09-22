@@ -13,8 +13,8 @@ usecases:
  - bettarelli_regional_2023
  - borbath_cleavage_2023
  - garzia_affective_2023 
+math: true
 ---
-
 # Description
 ---
 The (weighted) spread of like-dislike scores is a measure originally proposed by Wagner (2020), who considers it superior to the [distance]({{< ref "distance" >}}) from the most-liked party, and has since been used by a number of scholars to measure affective polarization. It measures the average spread of party like-dislike scores within respondents, weighted by the size of the parties. To aggregate to the party system, one simply calculates the unweighted average of all respondents' [spread]({{< ref "spread" >}}) scores. Wagner computes the (weighted) spread of like-dislike scores based on the CSES dataset, but in principle it can be applied to other datasets that contain the required items, i.e., like-dislike scores.
@@ -24,6 +24,7 @@ Wagner proceeds in two steps. First, they calculate the (weighted) spread of lik
 ## Individual-level
 
 Spread: $Spread_i = \sqrt{\frac{\sum_{p=1}^p (like_{ip} - \bar{like_i})^2}{n_p}}$
+
 Weighted spread:  $Spread_i = \sqrt{\sum_{p=1}^p v_p (like_{ip} - \bar{like_i})^2}$
 
 where $i$ = individual, $p$ = party, $v_p$ voteshare of party $p$, and $\bar{like_i} = \sum_{p=1}^p (v_{p} like_{ip})$ 
