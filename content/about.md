@@ -1,6 +1,7 @@
----
-title: "About"
-date: 2023-07-31
----
+The website presents the *Encyclopedia of Polarization* and the accompanying R package `polaR`.
+# Encyclopedia of Polarization
+The *Encyclopedia of Polarization* an online repository that catalogs available measures of political polarization and their use in applied research, along with data sources for cross-national comparative research. It currently describes ten measures of political polarization employed in comparative research. ...
+# polaR
+...
 
-This website is work in progress, based on the [Digital Garden theme](https://digital-garden-hugo-theme.vercel.app/).
+<!-- This is the about page -->

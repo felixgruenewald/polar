@@ -1,50 +1,53 @@
 ---
-name: "API"
-title: "Affective Polarisation Index"
+name: API
+title: Affective Polarisation Index
 polarisation:
-    - affective
-    - ideological
-level:
-    - mass
-measures:
-    - api
-    - sd
-data:
-    - cses
-data_sec:
-    - ess
+ - affective
+level: 
+ - mass
+data: 
+ - cses
+variables: 
+ - like_dislike
 usecases:
-    - wagner_affective_2021
+ - reiljan_fear_2020
+ - garzia_affective_2023
+ - reiljan_patterns_2023
 math: true
 ---
 
 # Description
-The (weighted) mean distance from the most liked party is a measure suggested by [@wagner_affective_2021](/usecases/@wagner_affective_2021), although he considers it inferior to the (weighted) [[spread]]. It measures the average discrepancy between like for the most liked party and like/dislike for all other parties. Wagner computes the (weighted) distance based on the CSES dataset, but in principle it can be applied to other datasets that contain the required items, i.e., like-dislike scores.
+ 
+The Affective Polarisation Index (API) was developed by [reiljan_fear_2020]({{< ref "reiljan_fear_2020" >}}). It is based on Dalton's polarisation_index and measures the (weighted) average difference between partisans' like of their party, including leaners, and their dislike of all other parties. Reiljan computes the API based on the CSES dataset, but in principle it can be applied to other datasets that contain the required items, i.e., like-dislike scores and partisan identification questions. For example, [garzia_affective_2023]({{< ref "garzia_affective_2023" >}}) applies the measure to The West European Voter Dataset and national election studies from Australia, Canada, New Zealand, and the United States.
+
 # Operationalization
-Wagner proceeds in two steps. First, they calculate the (weighted) mean distance for each respondent. Second, they aggregate to the party-system level by taking the mean of the respondents' distance scores. The unweighted and weighted distance measures are calculated as follows:
+ 
+Reiljan proceeds in two steps. They first calculate an AP score for each partisan group (i.e., those who at lean toward a party). In a party system with $N$ relevant parties, the relative AP of each party is defined as:
+$$AP_n = \sum_{m=1;m\neq n}^N [(Like_n - Like_m) \times (\frac{Vote~share_m}{1-Vote~share_n})]$$
+where the subscript $n$ denotes the in-party and $m$ denotes the out-party. Vote shares are expressed as decimals (e.g., 10% = 0.1). In a second step, they calculate the weighted average of all relevant parties' AP score in a given party system as:
 
-Unweighted: $$Distance_i = \sqrt{\frac{\sum_{p=1}^p (like_{ip} - like_{max,i})^2}{n_p}}$$
-Weighted: $$Distance_i = \sqrt{\sum_{p=1}^p v_p (like_{ip} - like_{max,i})^2}$$
+$$API = \sum_{n=1}^N (AP_n \times Vote~share_n)$$
+Bot steps taken together can be expressed as follows:
+$$API = \sum_{n=1}^N[\sum_{m=1; m \neq n}^N ((Like_n-Like_m) \times (\frac{Vote~share_m}{1 - Vote~share_n}))\times Vote~share_n]$$
 
-The subscript $i$ denotes an individual respondent, $p$ denotes a party, $max$ is the most liked party, and $v_p$ is the percentage of votes received by a party.
-
-# polaR code
-
+Given a like-dislike scale ranging from 0 to 10, the API score can  range from –10 to +10.
+​
+# polaR
+ 
 ```r
 # Illustrative R code for coding the measure based on the CSES data
 cses_imd <- polaR_import(source = "cses_imd", path = "datasets/cses/cses_imd.dta")
 
-cses_imd <- distance(cses_imd)
+cses_imd <- api(cses_imd)
 ```
-
+We have written a custom R functions for coding this measure and assembled it, along with other functions, into an R package that is still under development. The package can be installed from and the code can be viewed on [GitHub](https://github.com/felixgruenewald/polref). Comments, suggestions, and feature requests are welcome.
+​
 # Use cases
-<div class="block-language-dataview node-insert-event" style="overflow:scroll; display: block"><table class="dataview table-view-table"><thead class="table-view-thead"><tr class="table-view-tr-header"><th class="table-view-th"><span>Authors</span></span></th><th class="table-view-th"><span>Year</span></th><th class="table-view-th"><span>Title</span></th><th class="table-view-th"><span>Publication</span></th><th class="table-view-th"><span>DOI</span></th></tr></thead><tbody class="table-view-tbody"><tr><td><span>Markus Wagner</span></td><td>2021</td><td><span>Affective polarization in multiparty systems</span></td><td><span>Electoral Studies</span></td><td><span><a data-tooltip-position="top" aria-label="https://doi.org/10.1016/j.electstud.2020.102199" rel="noopener" class="external-link" href="https://doi.org/10.1016/j.electstud.2020.102199" target="_blank">10.1016/j.electstud.2020.102199</a></span></td></tr></tbody></table></div>
+ 
+*Publications that use this measure*:
 
-# Data
-
-<iframe src="https://felixgruenewald.shinyapps.io/polarapp/?dataset=cses&measure=api"
-    frameborder="0"
-    scrolling="yes" 
-    style="overflow:hidden;width:100%" 
-    height="1000" 
-    width="100%"></iframe>
+```dataview
+TABLE without ID Authors, Year, Title, Publication, DOI
+FROM api
+SORT Year ASC
+```
