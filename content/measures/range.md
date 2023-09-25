@@ -40,3 +40,10 @@ TABLE without ID Authors, Year, Title, Publication, DOI
 FROM [range]({{< ref "range" >}})
 SORT Year ASC
 ```
+
+<iframe src="https://felixgruenewald.shinyapps.io/polarapp/?dataset=cses&measure=ind_range"
+    frameborder="0"
+    scrolling="yes" 
+    style="overflow:hidden;width:100%" 
+    height="1000" 
+    width="100%"></iframe>

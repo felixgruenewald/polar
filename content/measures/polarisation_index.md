@@ -44,3 +44,11 @@ TABLE without ID Authors, Year, Title, Publication, DOI
 FROM [polarisation_index]({{< ref "polarisation" >}})
 SORT Year ASC
 ```
+
+
+<iframe src="https://felixgruenewald.shinyapps.io/polarapp/?dataset=cses&measure=polarisation_index"
+    frameborder="0"
+    scrolling="yes" 
+    style="overflow:hidden;width:100%" 
+    height="1000" 
+    width="100%"></iframe>

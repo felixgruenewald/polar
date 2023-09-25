@@ -42,3 +42,10 @@ TABLE without ID Authors, Year, Title, Publication, DOI
 FROM [sd]({{< ref "sd" >}})
 SORT Year ASC
 ```
+
+<iframe src="https://felixgruenewald.shinyapps.io/polarapp/?dataset=cses,eb,ess&measure=sd"
+    frameborder="0"
+    scrolling="yes" 
+    style="overflow:hidden;width:100%" 
+    height="1000" 
+    width="100%"></iframe>

@@ -42,3 +42,10 @@ FROM "usecases"
 Where contains(measures, distance)
 SORT Year ASC
 ```
+
+<iframe src="https://felixgruenewald.shinyapps.io/polarapp/?dataset=cses&measure=distance,distance_wgt"
+    frameborder="0"
+    scrolling="yes" 
+    style="overflow:hidden;width:100%" 
+    height="1000" 
+    width="100%"></iframe>

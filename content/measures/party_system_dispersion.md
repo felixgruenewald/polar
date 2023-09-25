@@ -36,3 +36,4 @@ TABLE without ID Authors, Year, Title, Publication, DOI
 FROM [party_system_dispersion]({{< ref "party_system_dispersion" >}})
 SORT Year ASC
 ```
+

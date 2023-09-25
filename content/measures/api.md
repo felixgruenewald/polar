@@ -45,3 +45,10 @@ TABLE without ID Authors, Year, Title, Publication, DOI
 FROM [api]({{< ref "api" >}})
 SORT Year ASC
 ```
+
+<iframe src="https://felixgruenewald.shinyapps.io/polarapp/?dataset=cses&measure=api"
+    frameborder="0"
+    scrolling="yes" 
+    style="overflow:hidden;width:100%" 
+    height="1000" 
+    width="100%"></iframe>
