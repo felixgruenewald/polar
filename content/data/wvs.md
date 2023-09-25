@@ -1,6 +1,7 @@
 ---
 name: WVS
 title: World Value Survey
+link: https://www.worldvaluessurvey.org/wvs.jsp
 ---
 # Description
 
@@ -8,7 +9,6 @@ The World Value Survey (WVS) is an international research group focused on measu
 
 WVS topics include social values, political attitudes, personal health and well-being, and attitudes toward the future. With regard to polarization, the WVS includes items that can be used to measure ideological polarization at the elite level.
 
-**URL:** [worldvaluessurvey.org](https://www.worldvaluessurvey.org/wvs.jsp)
 # Items
 ```dataview
 TABLE name as "Item"

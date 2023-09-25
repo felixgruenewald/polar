@@ -1,6 +1,7 @@
 ---
 name: MARPOR
 title: Manifesto
+link: https://manifestoproject.wzb.eu
 ---
 # Description
 
@@ -8,7 +9,6 @@ The Manifesto Research on Political Representation (MARPOR), formerly known and 
 
 With regard to polarization, MARPOR includes items and information that can be used to measure ideological polarization at the elite level. 
 
-**URL:** [manifestoproject.wzb.eu](https://manifestoproject.wzb.eu)
 # Items
 ```dataview
 TABLE Name as "Item"

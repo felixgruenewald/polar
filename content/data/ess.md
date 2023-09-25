@@ -1,6 +1,7 @@
 ---
 name: ESS
 title: European Social Survey
+link: https://www.europeansocialsurvey.org/)
 ---
 # Description
 
@@ -8,7 +9,7 @@ The European Social Survey (ESS) is a pan-European survey conducted every two ye
 
 Topics in the core questionnaire include attitudes toward democracy and politics, human values, immigration, and national and ethnic identity. In addition, each wave includes additional rotating modules containing items suggested by researchers. With regard to polarization, the ESS includes items that can be used to measure ideological polarization at the elite and mass levels.
 
-**URL:** [europeansocialsurvey.org](https://www.europeansocialsurvey.org/)
+
 # Items
 ```dataview
 TABLE Name as "Item"

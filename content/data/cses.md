@@ -1,6 +1,7 @@
 ---
 name: CSES
 title: Comparative Study of Electoral Systems
+link: https://cses.org/
 ---
 # Description
 
@@ -8,7 +9,6 @@ The Comparative Study of Electoral Systems (CSES) is a collaborative program of 
 
 Launched in 1996, the CSES has included five modules to date, covering topics such as citizens' views of political elites, representation and accountability, and the impact of electoral institutions. With regard to polarization, the CSES questionnaire includes several items that can be used to measure ideological polarization at the elite and mass levels and affective polarization at the mass level.
 
-**URL:** [cses.org](https://cses.org/)
 # Items
 ```dataview
 TABLE Name as "Item"

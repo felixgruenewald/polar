@@ -29,6 +29,7 @@ where $P_{jk}$ is the ideological position of party $j$ in country $k$ and $\bar
 # R code for coding the measure based on some input data
 ```
 We have written a custom R functions for coding this measure and assembled it, along with other functions, into an R package that is still under development. The package can be installed from and the code can be viewed on [GitHub](https://github.com/felixgruenewald/polref). Comments, suggestions, and feature requests are welcome.
+
 # Use cases
 *Publications that use this measure*:
 ```dataview

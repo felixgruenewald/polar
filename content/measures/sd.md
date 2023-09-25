@@ -35,6 +35,13 @@ where the subscript $i$ stands for an individual respondent or party, $p_i$ is t
 ```
 We have written a custom R functions for coding this measure and assembled it, along with other functions, into an R package that is still under development. The package can be installed from and the code can be viewed on [GitHub](https://github.com/felixgruenewald/polref). Comments, suggestions, and feature requests are welcome.
 
+<iframe src="https://felixgruenewald.shinyapps.io/polarapp/?dataset=cses,eb,ess&measure=sd"
+    frameborder="0"
+    scrolling="yes" 
+    style="overflow:hidden;width:100%" 
+    height="1000" 
+    width="100%"></iframe>
+
 # Use cases
 *Publications that use this measure*:
 ```dataview
@@ -42,10 +49,3 @@ TABLE without ID Authors, Year, Title, Publication, DOI
 FROM [sd]({{< ref "sd" >}})
 SORT Year ASC
 ```
-
-<iframe src="https://felixgruenewald.shinyapps.io/polarapp/?dataset=cses,eb,ess&measure=sd"
-    frameborder="0"
-    scrolling="yes" 
-    style="overflow:hidden;width:100%" 
-    height="1000" 
-    width="100%"></iframe>

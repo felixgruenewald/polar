@@ -1,6 +1,7 @@
 ---
 name: EB
 title: Eurobarometer
+link: https://europa.eu/eurobarometer/screen/home
 ---
 # Description
 
@@ -8,7 +9,6 @@ The Eurobarometer (EB) surveys public opinion in Europe, covering the state of p
 
 The combination of a wide range of topics covered regularly over a long period of time and its broad geographical coverage make the Eurobarometer a unique source of data on public opinion in Europe. With regard to polarization, EB surveys include several items that can be used as measures of ideological polarization at the elite and mass levels.
 
-**URL:** [europarl.eu/eurobarometer](https://europa.eu/eurobarometer/screen/home)
 # Items
 ```dataview
 TABLE Name as "Item"
