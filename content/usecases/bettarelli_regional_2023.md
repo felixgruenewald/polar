@@ -1,13 +1,17 @@
 ---
 authors: Luca Bettarelli, Andres Reiljan, Emilie Van Haute
-date: 2023
+date: 2023-01-01
 title: A regional perspective to the study of affective polarisation
 publication: European Journal of Political Research
 doi: https://doi.org/10.1111/1475-6765.12548
-polarisation: affective
-levels: mass
-measures: spread
-data: cses
+polarisation: 
+- affective
+levels: 
+- mass
+measures: 
+- spread
+data: 
+- cses
 ---
 
 

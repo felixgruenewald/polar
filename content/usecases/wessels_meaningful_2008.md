@@ -1,13 +1,17 @@
 ---
 authors: Bernhard Wessels, Hermann Schmitt
-date: 2008
+date: 2008-01-01
 title: "Meaningful choices, political supply, and institutional effectiveness"
 publication: Electoral Studies
 doi: https://doi.org/10.1016/j.electstud.2007.11.010
-polarisation: ideological
-levels: elite
-measures: range
-data: cses
+polarisation: 
+- ideological
+levels: 
+- elite
+measures: 
+- range
+data: 
+- cses
 ---
 
 # Abstract

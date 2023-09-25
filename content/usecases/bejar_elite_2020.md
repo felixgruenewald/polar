@@ -1,13 +1,17 @@
 ---
 authors: Sergio Béjar, Juan A. Moraes, Santiago López-Cariboni
-date: 2020
+date: 2020-01-01
 title: Elite polarisation and voting turnout in Latin America
 publication: Journal of Elections, Public Opinion and Parties
 doi: https://doi.org/10.1080/17457289.2018.1545775
-polarisation: ideological
-levels: elite
-measures: variance_weighted
-data: Other
+polarisation: 
+- ideological
+levels: 
+- elite
+measures: 
+- variance_weighted
+data: 
+- Other
 ---
 
 

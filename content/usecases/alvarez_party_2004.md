@@ -1,14 +1,18 @@
 ---
 authors: R. Michael Alvarez, Jonathan Nagler
-date: 2004
+date: 2004-01-01
 title: Party System Compactness
 subtitle: Measurement and Consequences
 publication: Political Analysis
 doi: https://doi.org/10.1093/pan/mph003
-polarisation: ideological
-levels: elite
-measures: party-system_compactness
-data: Other
+polarisation: 
+- ideological
+levels: 
+- elite
+measures: 
+- party-system_compactness
+data: 
+- Other
 ---
 
 

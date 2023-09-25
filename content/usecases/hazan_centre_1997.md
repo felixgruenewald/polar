@@ -1,14 +1,18 @@
 ---
 authors: Reuven Y. Hazan
-date: 1997
+date: 1997-01-01
 title: Centre Parties 
 subtitle: Polarisation and Competition in European Parliamentary Democracies
 publication: googlebooks:kg2eGq5xwg8C
 doi: https://doi.org/
-polarisation: ideological
-levels: elite
-measures: variance_weighted
-data: Other
+polarisation: 
+- ideological
+levels: 
+- elite
+measures: 
+- variance_weighted
+data: 
+- Other
 ---
 
 ​￼# Abstract

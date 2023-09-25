@@ -1,13 +1,17 @@
 ---
 authors: Jay K. Dow
-date: 2011
+date: 2011-01-01
 title: Party-System Extremism in Majoritarian and Proportional Electoral Systems
 publication: British Journal of Political Science
 doi: https://doi.org/10.1017/S0007123410000360
-polarisation: ideological
-levels: elite
-measures: party-system_extremism
-data: cses
+polarisation: 
+- ideological
+levels: 
+- elite
+measures: 
+- party-system_extremism
+data: 
+- cses
 ---
 
 # Abstract

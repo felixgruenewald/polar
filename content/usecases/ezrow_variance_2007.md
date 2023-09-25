@@ -1,14 +1,20 @@
 ---
 authors: Lawrence Ezrow
-date: 2007
-title: The Variance Matters 
+date: 2007-01-01
+title: The Variance Matters
 subtitle: How Party Systems Represent the Preferences of Voters
 publication: The Journal of Politics
 doi: https://doi.org/10.1111/j.1468-2508.2007.00503.x
-polarisation: ideological
-levels: elite
-measures: party_system_dispersion
-data: marpor
+polarisation:
+  - ideological
+levels: 
+- elite
+measures: 
+- party_system_dispersion
+data:
+  - marpor
+aliases:
+  - Ezrow (2007)
 ---
 
 ​￼# Abstract

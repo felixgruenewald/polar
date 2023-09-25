@@ -1,14 +1,18 @@
 ---
 authors: Yunus Emre Orhan
-date: 2022
+date: 2022-01-01
 title: The relationship between affective polarisation and democratic backsliding 
 subtitle: Comparative evidence
 publication: Democratization
 doi: https://doi.org/10.1080/13510347.2021.2008912
-polarisation: affective
-levels: mass
-measures: api
-data: cses
+polarisation: 
+- affective
+levels: 
+- mass
+measures: 
+- api
+data: 
+- cses
 ---
 
 ​￼# Abstract

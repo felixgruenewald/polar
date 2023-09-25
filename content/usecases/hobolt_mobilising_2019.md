@@ -1,13 +1,17 @@
 ---
 authors: Sara B. Hobolt, Julian M. Hoerner
-date: 2019
+date: 2019-01-01
 title: The mobilising effect of political choice
 publication: European Journal of Political Research
 doi: https://doi.org/10.1111/1475-6765.12353
-polarisation: ideological
-levels: elite
-measures: sd
-data: cses
+polarisation: 
+- ideological
+levels: 
+- elite
+measures: 
+- sd
+data: 
+- cses
 ---
 
 # Abstract

@@ -1,13 +1,17 @@
 ---
 authors: Daniel Bischof, Markus Wagner
-date: 2019
+date: 2019-01-01
 title: Do Voters Polarize When Radical Parties Enter Parliament?
 publication: American Journal of Political Science
 doi: https://doi.org/10.1111/ajps.12449
-polarisation: ideological
-levels: mass
-measures: sd
-data: eb
+polarisation: 
+- ideological
+levels: 
+- mass
+measures: 
+- sd
+data: 
+- eb
 ---
 
 # Abstract

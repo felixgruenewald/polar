@@ -1,14 +1,18 @@
 ---
 authors: Noam Lupu
-date: 2015
+date: 2015-01-01
 title: Party Polarisation and Mass Partisanship
 subtitle: A Comparative Perspective
 publication: Political Behavior
 doi: https://doi.org/10.1007/s11109-014-9279-z
-polarisation: ideological
-levels: elite
-measures: variance_weighted
-data: cses
+polarisation: 
+- ideological
+levels: 
+- elite
+measures: 
+- variance_weighted
+data: 
+- cses
 ---
 
 ​￼# Abstract

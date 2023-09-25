@@ -1,14 +1,18 @@
 ---
 authors: Andres Reiljan
-date: 2020
+date: 2020-01-01
 title: "Fear and loathing across party lines (also) in Europe"
 subtitle: Affective polarisation in European party systems
 publication: European Journal of Political Research
 doi: https://doi.org/10.1111/1475-6765.12351
-polarisation: affective
-levels: mass
-measures: api
-data: cses
+polarisation: 
+- affective
+levels: 
+- mass
+measures: 
+- api
+data: 
+- cses
 ---
 
 ​￼# Abstract

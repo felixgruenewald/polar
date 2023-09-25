@@ -1,13 +1,18 @@
 ---
 authors: Konstantinos Matakos, Orestis Troumpounis, Dimitrios Xefteris
-date: 2016
+date: 2016-01-01
 title: Electoral Rule Disproportionality and Platform Polarisation
 publication: American Journal of Political Science
 doi: https://doi.org/10.1111/ajps.12235
-polarisation: ideological
-levels: elite
-measures: polarisation_index, range
-data: marpor
+polarisation: 
+- ideological
+levels: 
+- elite
+measures: 
+- polarisation_index
+- range
+data: 
+- marpor
 ---
 
 # Abstract

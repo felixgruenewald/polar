@@ -2,7 +2,6 @@
 name: EB
 title: Eurobarometer
 ---
-
 # Description
 
 The Eurobarometer (EB) surveys public opinion in Europe, covering the state of public opinion on issues related to the European Union as well as other political or social issues. Launched by the European Commission in 1974, the EB was first conceived as a means of "revealing Europeans to themselves." Since then, it has evolved and expanded significantly with different survey instruments and is conducted twice a year. In 2007, the European Parliament launched its own regular series of Eurobarometer surveys, focusing on issues specific to the European Parliament, including the European elections.

@@ -1,13 +1,17 @@
 ---
 authors: Ruth Dassonneville, Semih Çakır
-date: 2021
+date: 2021-01-01
 title: Party System Polarisation and Electoral Behavior
 publication: 
 doi: https://doi.org/10.1093/acrefore/9780190228637.013.1979
-polarisation: ideological
-levels: elite
-measures: variance_weighted
-data:  cses
+polarisation: 
+- ideological
+levels: 
+- elite
+measures: 
+- variance_weighted
+data:
+- cses
 ---
 
 # Abstract

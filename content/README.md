@@ -9,7 +9,7 @@
 
 - Install and activate the plugin "Citations" by Jon Gauthier
 - Change database to _BibLaTex_ and paste the filepath to your exported PolRef Zotero database
-- Set "Literature note folder" to `Use cases`
+- Set "Literature note folder" to `usecases`
 - The "Literature note title template" should be "{{citekey}}"
     - This will be the filename of the literature note, e.g., abou-chadi_causal_2018
 - "Literature note content template": this is the strucutre of the information that the plugin imports from Zotero. There is a wide range of information that can be imported but we should have it in the same format.
@@ -17,21 +17,27 @@
     - Insert the following code into the template box:
 
 ```
+---
+authors: {{authorString}}
+date: {{year}}-01-01
+title: {{title}}
+subtitle: 
+publication: {{containerTitle}}
+doi: https://doi.org/{{DOI}})
+polarisation:
+  -
+levels:
+ -
+measures:
+ - range
+data:
+  - 
+tags:
+ - 
+---
 
->[!Info]
->**Authors**:: {{authorString}}
->**Year**:: {{year}}
->**Title**:: {{title}}
->**Publication**:: {{containerTitle}}
->**DOI**:: [{{DOI}}](https://doi.org/{{DOI}})
->**Polarization**::
->**Level**::
->**Measure**::
->**Data**::
-
-> [!Abstract]
-> {{abstract}}
-
+# Abstract
+{{abstract}}
 ```
 
 - Press CTRL + P to open up the command list, choose "Citation: Insert literature note link" to open up the list of Zotero entries, choose one to create a link and entry for a new literature note

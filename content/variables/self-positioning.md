@@ -9,8 +9,8 @@ Short 1-2 sentence description of the variable.
 # Measures
 ```dataview
 TABLE Name as "Measure", Polarization, Level
-FROM "Measures"
-WHERE contains(Variables, [self_positioning]({{< ref "self_positioning" >}}))
+FROM "measures"
+WHERE contains(variables, self-positioning)
 ```
 # Datasets
 ## [cses]({{< ref "cses" >}})

@@ -1,14 +1,18 @@
 ---
 authors: Philipp Dreyer, Johann Bauer
-date: 2019
+date: 2019-01-01
 title: Does voter polarisation induce party extremism? 
 subtitle: The moderating role of abstention
 publication: West European Politics
 doi: https://doi.org/10.1080/01402382.2019.1566852
-polarisation: ideological
-levels: elite
-measures: party_system_dispersion
-data: marpor
+polarisation: 
+- ideological
+levels: 
+- elite
+measures: 
+- party_system_dispersion
+data:
+- marpor
 ---
 
 # Abstract

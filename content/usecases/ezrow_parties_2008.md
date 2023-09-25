@@ -1,14 +1,18 @@
 ---
 authors: Lawrence Ezrow
-date: 2008
+date: 2008-01-01
 title: Parties' Policy Programmes and the Dog that Didn't Bark
 subtitle: No Evidence that Proportional Systems Promote Extreme Party Positioning
 publication: British Journal of Political Science
 doi: https://doi.org/10.1017/S0007123408000240
-polarisation: ideological
-levels: elite
-measures: party-system_extremism
-data: eb
+polarisation: 
+- ideological
+levels: 
+- elite
+measures: 
+- party-system_extremism
+data: 
+- eb
 ---
 
 ​￼# Abstract

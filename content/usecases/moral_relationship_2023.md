@@ -1,13 +1,17 @@
 ---
 authors: Mert Moral, Robin E Best
-date: 2023
+date: 2023-01-01
 title: On the relationship between party polarisation and citizen polarisation
 publication: Party Politics
 doi: https://doi.org/10.1177/13540688211069544
-polarisation: ideological
+polarisation: 
+- ideological
 levels:
-measures: sd
-data: cses, ees
+measures: 
+- sd
+data: 
+- cses
+- ees
 ---
 
 # Abstract

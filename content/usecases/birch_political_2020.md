@@ -1,14 +1,18 @@
 ---
 authors: Sarah Birch
-date: 2020
+date: 2020-01-01
 title: Political polarisation and environmental attitudes
 subtitle: A cross-national analysis
 publication: Environmental Politics
 doi: https://doi.org/10.1080/09644016.2019.1673997
-polarisation: ideological
-levels: elite
-measures: variance_weighted
-data: marpor
+polarisation:
+  - ideological
+levels:
+  - elite
+measures: 
+- variance_weighted
+data:
+  - marpor
 ---
 
 # Abstract

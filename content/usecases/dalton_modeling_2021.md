@@ -1,13 +1,17 @@
 ---
 authors: Russell J. Dalton
-date: 2021
+date: 2021-01-01
 title: Modeling ideological polarisation in democratic party systems
 publication: Electoral Studies
 doi: https://doi.org/10.1016/j.electstud.2021.102346
-polarisation: ideological
-levels: elite
-measures: polarisation_index
-data: cses
+polarisation: 
+- ideological
+levels: 
+- elite
+measures: 
+- polarisation_index
+data: 
+- cses
 ---
 
 # Abstract

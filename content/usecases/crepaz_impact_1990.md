@@ -1,13 +1,17 @@
 ---
 authors: Markus M. L. Crepaz
-date: 1990
+date: 1990-01-01
 title: The impact of party polarisation and postmaterialism on voter turnout
 publication: European Journal of Political Research
 doi: https://doi.org/10.1111/j.1475-6765.1990.tb00228.x
-polarisation: ideological
-levels: elite
-measures: range
-data: Other
+polarisation:
+- ideological
+levels:
+- elite
+measures:
+- range
+data:
+- Other
 ---
 
 # Abstract

@@ -49,9 +49,33 @@
       {{ $authors := .Params.authors }}
       {{ $publication := .Params.publication }}
       {{ $date := .Params.date.Format "2006" }}
+      {{ $doi := .Params.doi }}
       <h1 class="!mb-2">{{ $title }}</h1>
+      <h5 class="!mb-2">{{ $subtitle }}</h5>
       <h4 class="!mb-2">{{ $authors }}</h4>
       <h6 class="!mb-2">{{ $publication }}, {{ $date }}</h6>
+
+      
+
+      <!-- Draw a box around the properties -->
+      <div class="not-prose"> 
+        <a href="{{ $doi }}"><span class="textbubbles text-decoration:none">📕 Publication</span></a>
+      <br>
+        <div class="boxInfo" style="color: black;"><b>Quick Info</b><br>
+          <b>Polarisation:</b>{{ range .Params.polarisation }}
+            <a href="/polarisation/{{ . }}"><span class="textbubbles capitalize">{{ . }}</span></a>
+            {{ end }}<br>
+          <b>Level:</b>{{ range .Params.level }}
+            <a href="/levels/{{ . }}"><span class="textbubbles capitalize">{{ . }}</span></a>
+            {{ end }}<br>
+          <b>Data:</b>{{ range .Params.data }}
+            <a href="/data/{{ . }}"><span class="textbubbles uppercase">{{ . }}</span></a>
+            {{ end }}<br>
+          <b>Measures:</b>{{ range .Params.measures }}
+            <a href="/measures/{{ . }}"><span class="textbubbles capitalize">{{ . }}</span></a>
+            {{ end }}<br>
+        </div></div><br>
+        
 
       {{ .Content }}
     </article>

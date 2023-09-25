@@ -11,9 +11,9 @@ WVS topics include social values, political attitudes, personal health and well-
 **URL:** [worldvaluessurvey.org](https://www.worldvaluessurvey.org/wvs.jsp)
 # Items
 ```dataview
-TABLE Name as "Item"
-FROM "Variables"
-WHERE contains(datasets, [WVS]({{< ref "WVS" >}}))
+TABLE name as "Item"
+FROM "variables"
+WHERE data = wvs
 ```
 
 # Measures

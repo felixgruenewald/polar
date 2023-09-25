@@ -1,13 +1,17 @@
 ---
 authors: Andres Reiljan, Diego Garzia, Frederico Ferreira Da Silva, Alexander H. Trechsel
-date: 2023
+date: 2023-01-01
 title: Patterns of Affective Polarisation toward Parties and Leaders across the Democratic World
 publication: American Political Science Review
 doi: https://doi.org/10.1017/S0003055423000485
-polarisation: affective
-levels: mass
-measures: api
-data: cses
+polarisation: 
+- affective
+levels: 
+- mass
+measures: 
+- api
+data: 
+- cses
 ---
 
 # Abstract

@@ -1,14 +1,18 @@
 ---
 authors: Lee Sigelman, Syng Nam Yough
-date: 1978
+date: 1978-01-01
 title: Left-Right Polarisation In National Party Systems
 subtitle: A Cross-National Analysis
 publication: Comparative Political Studies
 doi: https://doi.org/10.1177/001041407801100304
-polarisation: ideological
-levels: elite
-measures: variance_weighted
-data: Other
+polarisation: 
+- ideological
+levels: 
+- elite
+measures: 
+- variance_weighted
+data: 
+- Other
 ---
 
 # Abstract

@@ -1,14 +1,18 @@
 ---
 authors: Yair Amitai
-date: 2023
+date: 2023-01-01
 title: The Activists Who Divide Us
 subtitle: A Cross-Country Analysis of Party Activists’ Influence on Polarisation and Representation
 publication: Comparative Political Studies
 doi: https://doi.org/10.1177/00104140231169030
-polarisation: ideological
-levels: elite
-measures: polarisation_index
-data: cses
+polarisation: 
+- ideological
+levels: 
+- elite
+measures: 
+- polarisation_index
+data: 
+- cses
 ---
 
 

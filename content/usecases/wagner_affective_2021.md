@@ -1,13 +1,18 @@
 ---
 authors: Markus Wagner
-date: 2021
+date: 2021-01-01
 title: Affective polarisation in multiparty systems
 publication: Electoral Studies
 doi: https://doi.org/10.1016/j.electstud.2020.102199
-polarisation: affective
-levels: elite
-measures: spread, distance
-data: cses
+polarisation: 
+- affective
+levels: 
+- elite
+measures: 
+- spread
+- distance
+data: 
+- cses
 ---
 
 # Abstract

@@ -3,13 +3,13 @@ datasets:
  - cses
 ---
 # Variable description
-
 Short 1-2 sentence description of the variable.
+
 # Measures
 ```dataview
 TABLE Name as "Measure", Polarization, Level
-FROM "Measures"
-WHERE contains(Variables, [like_dislike]({{< ref "like_dislike" >}}))
+FROM "measures"
+WHERE contains(variables, like-dislike)
 ```
 # Datasets
 ## [cses]({{< ref "cses" >}})

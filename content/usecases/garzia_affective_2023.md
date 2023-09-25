@@ -1,13 +1,18 @@
 ---
 authors: Diego Garzia, Frederico Ferreira da Silva, Simon Maye
-date: 2023
+date: 2023-01-01
 title: Affective Polarisation in Comparative and Longitudinal Perspective
 publication: Public Opinion Quarterly
 doi: https://doi.org/10.1093/poq/nfad004
-polarisation: affective
-levels: mass
-measures: api, spread
-data: Other
+polarisation: 
+- affective
+levels: 
+- mass
+measures: 
+- api
+- spread
+data: 
+- Other
 ---
 
 # Abstract

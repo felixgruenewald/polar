@@ -1,13 +1,21 @@
 ---
 authors: Endre Borbáth, Swen Hutter, Arndt Leininger
-date: 2023
+date: 2023-01-01
 title: Cleavage politics, polarisation and participation in Western Europe
 publication: West European Politics
 doi: https://doi.org/10.1080/01402382.2022.2161786
-polarisation: ideological, affective
-levels: elite, mass
-measures: polarisation_index, api
-data: cses, ches
+polarisation: 
+ - ideological
+ - affective
+levels:
+ - elite
+ - mass
+measures:
+ - polarisation_index
+ - api
+data:
+ - cses
+ - ches
 ---
 
 # Abstract

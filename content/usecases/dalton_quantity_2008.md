@@ -1,14 +1,18 @@
 ---
 authors: Russell J. Dalton
-date: 2008
+date: 2008-01-01
 title: The Quantity and the Quality of Party Systems
 subtitle: Party System Polarisation, Its Measurement, and Its Consequences
 publication: Comparative Political Studies
 doi: https://doi.org/10.1177/0010414008315860
-polarisation: ideological
-levels: elite
-measures: polarisation_index
-data: cses
+polarisation: 
+- ideological
+levels: 
+- elite
+measures: 
+- polarisation_index
+data: 
+- cses
 ---
 
 # Abstract

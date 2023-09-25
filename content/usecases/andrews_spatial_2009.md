@@ -1,14 +1,18 @@
 ---
 authors: Josephine T. Andrews, Jeannette Money
-date: 2009
+date: 2009-01-01
 title: The Spatial Structure of Party Competition
 subtitle: Party Dispersion within a Finite Policy Space
 publication: British Journal of Political Science
 doi: https://doi.org/10.1017/S0007123409990172
-polarisation: ideological
-levels: elite
-measures: range
-data: marpor
+polarisation: 
+- ideological
+levels: 
+- elite
+measures: 
+- range
+data: 
+- marpor
 ---
 
 # Abstract

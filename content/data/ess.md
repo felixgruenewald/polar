@@ -12,15 +12,15 @@ Topics in the core questionnaire include attitudes toward democracy and politics
 # Items
 ```dataview
 TABLE Name as "Item"
-FROM "Variables"
-WHERE contains(datasets, [ESS]({{< ref "ESS" >}}))
+FROM "variables"
+WHERE contains(datasets, ess)
 ```
 
 # Measures
 ```dataview
 TABLE Name as "Measure", Polarization, Level
-FROM "Measures"
-WHERE contains(Data, ESS) OR contains(Data, "*[ESS]({{< ref "ESS" >}})*")
+FROM "measures"
+WHERE contains(datasets, ess) OR contains(datasec, ess)
 ```
 # Use cases
 ```dataview

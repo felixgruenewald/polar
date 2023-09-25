@@ -53,7 +53,7 @@ googleAnalytics = "UA-PROPERTY_ID"
   url = '/data'
   weight = 6
 [[menu.main]]
-  name = 'Articles'
+  name = 'Use Cases'
   url = '/usecases'
   weight = 7
 
