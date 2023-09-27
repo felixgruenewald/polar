@@ -15,13 +15,13 @@ The *Encyclopedia* helps researchers navigate the field by categorizing extant a
 
 ## ❄️ polaR
 
-```polaR``` is an R package that we are currently developing, which implements the measures documented in the *Encyclopedia* and provides functions for importing the most commonly used cross-national comparative datasets. The package currently supports the ... datasets and x out of the ten measures of polarization documented in the Encyclopedia. The development version of the package is available on [GitHub](https://github.com/felixgruenewald/polref) and comments and feedback are very welcome. 
+```polaR``` is an R package that we are currently developing, which implements the measures documented in the *Encyclopedia* and provides functions for importing the most commonly used cross-national comparative datasets. The package currently supports four of the datasets and six out of the ten measures of polarization documented in the Encyclopedia. The development version of the package is available on [GitHub](https://github.com/felixgruenewald/polref) and comments and feedback are very welcome. 
 
 ## 👥 The team
 
 The *Encyclopedia of Polarization* is developed by the Emmy Noether research group "Polarization through and in referendums: mapping polarization within and beyond the party system" led by [Arndt Leininger](https://aleininger.eu/). [Felix Grünewald](https://felixgruenewald.net/) leads the development of the *Encyclopedia* and ```polaR```. We are supported by our excellent research assistant [Marcel Schneider](https://www.tu-chemnitz.de/phil/politik/pf/professur/Schneider.php.en). We are based at [Chemnitz University of Technology](https://tu-chemnitz.de/polmeth).
 
-We also work on a literature review on polarization in multiparty systems, which you can find on [SocArXiv](https://osf.io/preprints/socarxiv/mz6rs/).
+We also work on a literature review on polarization in multiparty systems, which you can find on [SocArXiv](https://osf.io/preprints/socarxiv/mz6rs/):
 
 <iframe src="https://mfr.osf.io/render?url=https://osf.io/download/64d606602fe4965c8e61b130/?direct%26mode=render"
 frameborder="0"
