@@ -28,29 +28,26 @@ googleAnalytics = "UA-PROPERTY_ID"
   name = '🏠 Home'
   url = '/'
   weight = 1
-[[menu.main]]
-  name = 'About'
-  url = '/about'
-  weight = 2
+
 [[menu.main]]
   name = 'Encyclopedia'
   params.header = true
   weight = 2
 [[menu.main]]
-  name = 'Polarisation'
-  url = '/polarisation'
-  weight = 3
-[[menu.main]]
   name = 'Measures'
   url = '/measures'
-  weight = 4
-[[menu.main]]
-  name = 'Levels'
-  url = '/levels'
-  weight = 5
+  weight = 3
 [[menu.main]]
   name = 'Data'
   url = '/data'
+  weight = 4
+[[menu.main]]
+  name = 'Polarization'
+  url = '/polarisation'
+  weight = 5
+[[menu.main]]
+  name = 'Levels'
+  url = '/levels'
   weight = 6
 [[menu.main]]
   name = 'Use Cases'

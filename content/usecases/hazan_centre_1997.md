@@ -16,5 +16,5 @@ data:
 aliases:
   - Hazan (1997)
 ---
-# Abstract
+## Abstract
 What kind of impact do centre parties have in parliamentary democracies? How does the existence and growth of centre parties affect party system polarisation, electoral competition and government stability? This text reassesses the perception of centre parties as a force of moderation. The author argues that this intuitive judgement, which has become accepted by political scientists is dubious, if not incorrect. He examines contemporary centre parties in Europe and asserts that the opposing tendency of centre parties contributes to party system polarisation.

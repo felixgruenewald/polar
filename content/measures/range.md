@@ -17,16 +17,16 @@ usecases:
 - wessels_meaningful_2008
 math: true
 ---
-# Description
+## Description
 The range between the two most distant parties on the left-right dimension in a party system is one of the earliest, first used by [Crepaz (1990)]({{< ref "crepaz_impact_1990" >}}), and most widely used measures of ideological polarization. While the measure has mostly been applied to CHES expert ratings and MARPOR estimates of party positions, it is in principle applicable to any estimates of party positions, regardless of their source.
 
-# Operationalization
+## Operationalization
 The range is defined as follows:
 $$range = max(lr_p)-min(lr_p)$$
 
 where $lr_p$ is the left-right position of a party $p$ and the measure captures the difference between the left-most and right-most party, i.e., the range.
 
-# polaR
+## polaR
 ```r
 tbd
 ```
@@ -39,7 +39,7 @@ We have written a custom R functions for coding this measure and assembled it, a
     height="1000" 
     width="100%"></iframe>
 
-# Use cases
+## Use cases
 _Publication that use this measure:_
 
 | Title                                                                                                          | Authors                    |

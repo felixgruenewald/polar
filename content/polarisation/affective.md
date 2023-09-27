@@ -1,7 +1,7 @@
 ---
-title: Affective Polarisation
+title: Affective Polarization
 ---
-# Measures
+## Measures
 
 | Measure                            | Level |
 | ---------------------------------- | ----- |
@@ -9,7 +9,7 @@ title: Affective Polarisation
 | [Distance]({{< ref "measures/distance.md" >}}) | mass  |
 | [Spread]({{< ref "measures/spread.md" >}})     | mass  |
 
-# Use cases
+## Use cases
 _Publication that use this measure:_
 
 | Title                                                                                                                            | Authors                  |

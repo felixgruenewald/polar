@@ -1,10 +1,10 @@
 ---
-title: Elite Polarisation
+title: Elite Polarization
 ---
 
-# Measures
+## Measures
 
-| Measure                                                        | Polarisation |
+| Measure                                                        | Polarization |
 | -------------------------------------------------------------- | ------------ |
 | [Compactness]({{< ref "measures/party-system_compactness.md" >}})          | ideological  |
 | [Party-System Extremism]({{< ref "measures/party-system_extremism.md" >}}) | ideological  |
@@ -14,7 +14,7 @@ title: Elite Polarisation
 | [SD]({{< ref "measures/sd.md" >}})                                         | ideological  |
 | [Variance]({{< ref "measures/variance_weighted.md" >}})                    | ideological  |
 
-# Use cases
+## Use cases
 
 | Title                                                                                                           | Authors                        |
 | --------------------------------------------------------------------------------------------------------------- | ------------------------------ |

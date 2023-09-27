@@ -1,4 +1,4 @@
-# Use cases
+## Use cases
 Publications that use this dataset:
 
 <%*  

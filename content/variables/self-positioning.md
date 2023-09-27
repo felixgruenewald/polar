@@ -4,16 +4,16 @@ Datasets:
   - ess
 title: Issue Self-Positioning
 ---
-# Variable description
+## Variable description
 
 Short 1-2 sentence description of the variable.
-# Measures
+## Measures
 ```dataview
 TABLE Name as "Measure", Polarization, Level
 FROM "measures"
 WHERE contains(variables, self-positioning)
 ```
-# Datasets
+## Datasets
 ## [cses]({{< ref "cses" >}})
 `Variable name` Variable label
 > "question text"
@@ -21,7 +21,7 @@ WHERE contains(variables, self-positioning)
 > answers
 
 Further variables:  list names and label of similar variable if same question is asked to multiple parties, for instance, for now it is sufficient to just copy and paste the first 1-2 further variable and end on ,... to indicate that the dataset has more variables
-## [ess]({{< ref "ess" >}})
+#### [ess]({{< ref "ess" >}})
 `Variable name` Variable label
 > "question text"
 

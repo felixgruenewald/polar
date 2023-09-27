@@ -1,4 +1,4 @@
-# Use cases
+## Use cases
 _Publication that use this measure:_
 
 <%*  

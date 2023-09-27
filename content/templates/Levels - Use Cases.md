@@ -1,4 +1,4 @@
-# Use cases
+## Use cases
 
 <%*  
 const dv = app.plugins.plugins["dataview"].api;  

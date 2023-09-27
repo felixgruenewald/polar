@@ -3,16 +3,16 @@ datasets:
   - cses
 title: Like-Dislike scores of parties
 ---
-# Variable description
+## Variable description
 Short 1-2 sentence description of the variable.
 
-# Measures
+## Measures
 ```dataview
 TABLE Name as "Measure", Polarization, Level
 FROM "measures"
 WHERE contains(variables, like-dislike)
 ```
-# Datasets
+## Datasets
 ## [cses]({{< ref "cses" >}})
 
 `IMD3008_A` LIKE-DISLIKE - PARTY A

@@ -1,7 +1,7 @@
 ---
-title: Ideological Polarisation
+title: Ideological Polarization
 ---
-# Measures
+## Measures
 
 | Measure                                                        | Level       |
 | -------------------------------------------------------------- | ----------- |
@@ -13,7 +13,7 @@ title: Ideological Polarisation
 | [SD]({{< ref "measures/sd.md" >}})                                         | elite, mass |
 | [Variance]({{< ref "measures/variance_weighted.md" >}})                    | elite       |
 
-# Use cases
+## Use cases
 _Publication that use this measure:_
 
 | Title                                                                                                            | Authors                        |

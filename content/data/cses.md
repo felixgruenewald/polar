@@ -3,19 +3,19 @@ name: CSES
 title: Comparative Study of Electoral Systems
 link: https://cses.org/
 ---
-# Description
+## Description
 
 The Comparative Study of Electoral Systems (CSES) is a collaborative program of election research teams from around the world. The CSES covers a wide range of topics with a focus on the behavior and attitudes of respondents at times of national elections, such as voting and turnout. CSES designs a core questionnaire that is regularly included in many academic national election surveys. 
 
 Launched in 1996, the CSES has included five modules to date, covering topics such as citizens' views of political elites, representation and accountability, and the impact of electoral institutions. With regard to polarization, the CSES questionnaire includes several items that can be used to measure ideological polarization at the elite and mass levels and affective polarization at the mass level.
 
-# Items
+## Items
 Items that can be found in this dataset:
 - [Like-Dislike scores of parties]({{< ref "variables/like-dislike.md" >}})
 - [Party Positions on Issue Dimension]({{< ref "variables/party-position.md" >}})
 - [Issue Self-Positioning]({{< ref "variables/self-positioning.md" >}})
 
-# Measures
+## Measures
 Measures that use this dataset:
 
 | Measure                                                        | Polarization | Level       |
@@ -28,7 +28,7 @@ Measures that use this dataset:
 | [SD]({{< ref "measures/sd.md" >}})                                         | ideological  | elite, mass |
 | [Variance]({{< ref "measures/variance_weighted.md" >}})                    | ideological  | elite       |
 
-# Use cases
+## Use cases
 Publications that use this dataset:
 
 | Title                                                                                                                            | Authors                        |

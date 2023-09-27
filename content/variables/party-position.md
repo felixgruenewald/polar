@@ -4,16 +4,16 @@ datasets:
   - ches
 title: Party Positions on Issue Dimension
 ---
-# Variable description
+## Variable description
 
 Short 1-2 sentence description of the variable.
-# Measures
+## Measures
 ```dataview
 TABLE Name as "Measure", Polarization, Level
 FROM "measures"
 WHERE contains(variables, party-position)
 ```
-# Datasets
+## Datasets
 ## [cses]({{< ref "cses" >}})
 `Variable name` Variable label
 > "question text"
