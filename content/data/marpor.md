@@ -9,22 +9,23 @@ The Manifesto Research on Political Representation (MARPOR), formerly known and 
 
 With regard to polarization, MARPOR includes items and information that can be used to measure ideological polarization at the elite level. 
 
-# Items
-```dataview
-TABLE Name as "Item"
-FROM "Variables"
-WHERE contains(datasets, [MARPOR]({{< ref "MARPOR" >}}))
-```
 # Measures
-```dataview
-TABLE Name as "Measure", Polarization, Level
-FROM "Measures"
-WHERE contains(Data, [MARPOR]({{< ref "MARPOR" >}})) OR contains(Data, "*[MARPOR]({{< ref "MARPOR" >}})*")
-```
+Measures that use this dataset:
+
+| Measure                                             | Polarization | Level |
+| --------------------------------------------------- | ------------ | ----- |
+| [Dispersion]({{< ref "measures/party_system_dispersion.md" >}}) | ideological  | elite |
+| [Range]({{< ref "measures/range.md" >}})                        | ideological  | elite |
+| [Variance]({{< ref "measures/variance_weighted.md" >}})         | ideological  | elite |
+
 # Use cases
-```dataview
-TABLE without ID Authors, Year, Title, Publication, DOI
-FROM "Use cases"
-WHERE contains(Data, [MARPOR]({{< ref "MARPOR" >}}))
-SORT Year DESC
-```
+Publications that use this dataset:
+
+| Title                                                                                               | Authors                  |
+| --------------------------------------------------------------------------------------------------- | ------------------------ |
+| [The Spatial Structure of Party Competition]({{< ref "usecases/andrews_spatial_2009.md" >}})                    | Andrews and Money (2009) |
+| [Political polarisation and environmental attitudes]({{< ref "usecases/birch_political_2020.md" >}})            | Birch (2020)             |
+| [Does voter polarisation induce party extremism?]({{< ref "usecases/dreyer_does_2019.md" >}})                   | Dreyer and Bauer (2019)  |
+| [The Variance Matters]({{< ref "usecases/ezrow_variance_2007.md" >}})                                           | Ezrow (2007)             |
+| [Electoral Rule Disproportionality and Platform Polarisation]({{< ref "usecases/matakos_electoral_2016.md" >}}) | Matakos et al. (2016)    |
+

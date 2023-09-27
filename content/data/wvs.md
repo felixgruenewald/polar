@@ -9,23 +9,16 @@ The World Value Survey (WVS) is an international research group focused on measu
 
 WVS topics include social values, political attitudes, personal health and well-being, and attitudes toward the future. With regard to polarization, the WVS includes items that can be used to measure ideological polarization at the elite level.
 
-# Items
-```dataview
-TABLE name as "Item"
-FROM "variables"
-WHERE data = wvs
-```
-
 # Measures
-```dataview
-TABLE Name as "Measure", Polarization, Level
-FROM "Measures"
-WHERE contains(Data, [WVS]({{< ref "WVS" >}})) OR contains(Data, "*[WVS]({{< ref "WVS" >}})*")
-```
+Measures that use this dataset:
+
+| Measure                                     | Polarization | Level |
+| ------------------------------------------- | ------------ | ----- |
+| [Variance]({{< ref "measures/variance_weighted.md" >}}) | ideological  | elite |
+
 # Use cases
-```dataview
-TABLE without ID Authors, Year, Title, Publication, DOI
-FROM "Use cases"
-WHERE contains(Data, [WVS]({{< ref "WVS" >}}))
-SORT Year DESC
-```
+Publications that use this dataset:
+
+| Title | Authors |
+| ----- | ------- |
+

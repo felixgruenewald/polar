@@ -18,7 +18,7 @@ usecases:
 math: true
 ---
 # Description
-The range between the two most distant parties on the left-right dimension in a party system is one of the earliest, first used by [crepaz_impact_1990]({{< ref "crepaz_impact_1990" >}}), and most widely used measures of ideological polarization. While the measure has mostly been applied to CHES expert ratings and MARPOR estimates of party positions, it is in principle applicable to any estimates of party positions, regardless of their source.
+The range between the two most distant parties on the left-right dimension in a party system is one of the earliest, first used by [Crepaz (1990)]({{< ref "crepaz_impact_1990" >}}), and most widely used measures of ideological polarization. While the measure has mostly been applied to CHES expert ratings and MARPOR estimates of party positions, it is in principle applicable to any estimates of party positions, regardless of their source.
 
 # Operationalization
 The range is defined as follows:
@@ -40,10 +40,14 @@ We have written a custom R functions for coding this measure and assembled it, a
     width="100%"></iframe>
 
 # Use cases
-*Publications that use this measure*:
+_Publication that use this measure:_
 
-```dataview
-TABLE without ID Authors, Year, Title, Publication, DOI
-FROM [range]({{< ref "range" >}})
-SORT Year ASC
-```
+| Title                                                                                                          | Authors                    |
+| -------------------------------------------------------------------------------------------------------------- | -------------------------- |
+| [Challenges to established parties]({{< ref "usecases/abedi_challenges_2002.md" >}})                                       | Abedi (2002)               |
+| [The Spatial Structure of Party Competition]({{< ref "usecases/andrews_spatial_2009.md" >}})                               | Andrews and Money (2009)   |
+| [The impact of party polarisation and postmaterialism on voter turnout]({{< ref "usecases/crepaz_impact_1990.md" >}})      | Crepaz (1990)              |
+| [Reflections]({{< ref "usecases/mair_reflections_1997.md" >}})                                                             | Mair and Castles (1997)    |
+| [Electoral Rule Disproportionality and Platform Polarisation]({{< ref "usecases/matakos_electoral_2016.md" >}})            | Matakos et al. (2016)      |
+| [Meaningful choices, political supply, and institutional effectiveness]({{< ref "usecases/wessels_meaningful_2008.md" >}}) | Wessels and Schmitt (2008) |
+

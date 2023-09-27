@@ -43,9 +43,11 @@ We have written a custom R functions for coding this measure and assembled it, a
     width="100%"></iframe>
 
 # Use cases
-*Publications that use this measure*:
-```dataview
-TABLE without ID Authors, Year, Title, Publication, DOI
-FROM [sd]({{< ref "sd" >}})
-SORT Year ASC
-```
+_Publication that use this measure:_
+
+| Title                                                                                                            | Authors                   |
+| ---------------------------------------------------------------------------------------------------------------- | ------------------------- |
+| [Do Voters Polarize When Radical Parties Enter Parliament?]({{< ref "usecases/bischof_voters_2019.md" >}})                   | Bischof and Wagner (2019) |
+| [The mobilising effect of political choice]({{< ref "usecases/hobolt_mobilising_2019.md" >}})                                | Hobolt and Hoerner (2019) |
+| [On the relationship between party polarisation and citizen polarisation]({{< ref "usecases/moral_relationship_2023.md" >}}) | Moral and Best (2023)     |
+

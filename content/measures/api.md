@@ -14,9 +14,10 @@ usecases:
   - garzia_affective_2023
   - reiljan_patterns_2023
 math: true
+datasec: []
 ---
 # Description
-The Affective Polarisation Index (API) was developed by [reiljan_fear_2020]({{< ref "reiljan_fear_2020" >}}). It is based on Dalton's polarisation_index and measures the (weighted) average difference between partisans' like of their party, including leaners, and their dislike of all other parties. Reiljan computes the API based on the CSES dataset, but in principle it can be applied to other datasets that contain the required items, i.e., like-dislike scores and partisan identification questions. For example, [garzia_affective_2023]({{< ref "garzia_affective_2023" >}}) applies the measure to The West European Voter Dataset and national election studies from Australia, Canada, New Zealand, and the United States.
+The Affective Polarisation Index (API) was developed by [Reiljan (2020)]({{< ref "reiljan_fear_2020" >}}). It is based on Dalton's polarisation_index and measures the (weighted) average difference between partisans' like of their party, including leaners, and their dislike of all other parties. Reiljan computes the API based on the CSES dataset, but in principle it can be applied to other datasets that contain the required items, i.e., like-dislike scores and partisan identification questions. For example, [Garzia et al. (2023)]({{< ref "garzia_affective_2023" >}}) applies the measure to The West European Voter Dataset and national election studies from Australia, Canada, New Zealand, and the United States.
 
 # Operationalization
 Reiljan proceeds in two steps. They first calculate an AP score for each partisan group (i.e., those who at lean toward a party). In a party system with $N$ relevant parties, the relative AP of each party is defined as:
@@ -44,11 +45,14 @@ We have written a custom R functions for coding this measure and assembled it, a
     style="overflow:hidden;width:100%" 
     height="1000" 
     width="100%"></iframe>
-
 # Use cases
-*Publications that use this measure*:
-```dataview
-TABLE without ID Authors, Year, Title, Publication, DOI
-FROM [api]({{< ref "api" >}})
-SORT Year ASC
-```
+_Publication that use this measure:_
+
+| Title                                                                                                                            | Authors               |
+| -------------------------------------------------------------------------------------------------------------------------------- | --------------------- |
+| [Cleavage politics, polarisation and participation in Western Europe]({{< ref "usecases/borbath_cleavage_2023.md" >}})                       | Borbáth et al. (2023) |
+| [Affective Polarisation in Comparative and Longitudinal Perspective]({{< ref "usecases/garzia_affective_2023.md" >}})                        | Garzia et al. (2023)  |
+| [The relationship between affective polarisation and democratic backsliding]({{< ref "usecases/orhan_relationship_2022.md" >}})              | Orhan (2022)          |
+| [Fear and loathing across party lines (also) in Europe]({{< ref "usecases/reiljan_fear_2020.md" >}})                                         | Reiljan (2020)        |
+| [Patterns of Affective Polarisation toward Parties and Leaders across the Democratic World]({{< ref "usecases/reiljan_patterns_2023.md" >}}) | Reiljan et al. (2023) |
+

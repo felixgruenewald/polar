@@ -15,7 +15,7 @@ usecases:
 math: true
 ---
 # Description
-Party-system compactness, proposed by [alvarez_party_2004]({{< ref "alvarez_party_2004" >}}), measures the dispersion of voters' ideological positions relative to the dispersion of parties' positions. Alvarez and Nagler apply the measure to data from the American National Election Study (ANES), the British Election Study (BES), and the Canadian Election Study (CES). In principle, it can also be applied to other survey data, such as the [cses]({{< ref "cses" >}}).
+Party-system compactness, proposed by [Alvarez and Nagler (2004)]({{< ref "alvarez_party_2004" >}}), measures the dispersion of voters' ideological positions relative to the dispersion of parties' positions. Alvarez and Nagler apply the measure to data from the American National Election Study (ANES), the British Election Study (BES), and the Canadian Election Study (CES). In principle, it can also be applied to other survey data, such as the [cses]({{< ref "cses" >}}).
 
 # Operationalization
 Alvarez and Nagler calculated an unweighted and a weighted version of the measure, the latter using the parties' vote shares as weights. Their measures of party-system compactness are calculated as follows:
@@ -31,9 +31,9 @@ where this formula uses the same concepts and adds $V_j$, which is the vote shar
 We have written a custom R functions for coding this measure and assembled it, along with other functions, into an R package that is still under development. The package can be installed from and the code can be viewed on [GitHub](https://github.com/felixgruenewald/polref). Comments, suggestions, and feature requests are welcome.
 
 # Use cases
-*Publications that use this measure*:
-```dataview
-TABLE without ID Authors, Year, Title, Publication, DOI
-FROM [party-system_compactness]({{< ref "party-system_compactness" >}})
-SORT Year ASC
-```
+_Publication that use this measure:_
+
+| Title                                                        | Authors                   |
+| ------------------------------------------------------------ | ------------------------- |
+| [Party System Compactness]({{< ref "usecases/alvarez_party_2004.md" >}}) | Alvarez and Nagler (2004) |
+

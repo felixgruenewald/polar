@@ -9,22 +9,17 @@ The European Election Studies (EES) provide data on voter behavior in European e
 
 Topics covered by the EES include a wide range of attitudes such as social trust, human values, or attitudes towards immigration, as well as additional information such as socio-demographics, or subjective well-being. With regard to polarization, the EES includes items that can be used to measure ideological polarization at both the elite and mass levels.
 
-# Items
-```dataview
-TABLE Name as "Item"
-FROM "Variables"
-WHERE contains(datasets, [EES]({{< ref "EES" >}}))
-```
 # Measures
-```dataview
-TABLE Name as "Measure", Polarization, Level
-FROM "Measures"
-WHERE contains(Data, [EES]({{< ref "EES" >}})) OR contains(Data, "*[EES]({{< ref "EES" >}})*")
-```
+Measures that use this dataset:
+
+| Measure                | Polarization | Level       |
+| ---------------------- | ------------ | ----------- |
+| [SD]({{< ref "measures/sd.md" >}}) | ideological  | elite, mass |
+
 # Use cases
-```dataview
-TABLE without ID Authors, Year, Title, Publication, DOI
-FROM "Use cases"
-WHERE contains(Data, [EES]({{< ref "EES" >}}))
-SORT Year DESC
-```
+Publications that use this dataset:
+
+| Title                                                                                                            | Authors               |
+| ---------------------------------------------------------------------------------------------------------------- | --------------------- |
+| [On the relationship between party polarisation and citizen polarisation]({{< ref "usecases/moral_relationship_2023.md" >}}) | Moral and Best (2023) |
+

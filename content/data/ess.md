@@ -9,24 +9,19 @@ The European Social Survey (ESS) is a pan-European survey conducted every two ye
 
 Topics in the core questionnaire include attitudes toward democracy and politics, human values, immigration, and national and ethnic identity. In addition, each wave includes additional rotating modules containing items suggested by researchers. With regard to polarization, the ESS includes items that can be used to measure ideological polarization at the elite and mass levels.
 
-
 # Items
-```dataview
-TABLE Name as "Item"
-FROM "variables"
-WHERE contains(datasets, ess)
-```
+Items that can be found in this dataset:
+- [Issue Self-Positioning]({{< ref "variables/self-positioning.md" >}})
 
 # Measures
-```dataview
-TABLE Name as "Measure", Polarization, Level
-FROM "measures"
-WHERE contains(datasets, ess) OR contains(datasec, ess)
-```
+Measures that use this dataset:
+
+| Measure | Polarization | Level |
+| ------- | ------------ | ----- |
+
 # Use cases
-```dataview
-TABLE without ID Authors, Year, Title, Publication, DOI
-FROM "Use cases"
-WHERE contains(Data, [ESS]({{< ref "ESS" >}}))
-SORT Year DESC
-```
+Publications that use this dataset:
+
+| Title | Authors |
+| ----- | ------- |
+

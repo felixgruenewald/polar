@@ -52,10 +52,11 @@ We have written a custom R functions for coding this measure and assembled it, a
     width="100%"></iframe>
 
 # Use cases
-*Publications that use this measure*:
-```dataview
-TABLE without ID Authors, Year, Title, Publication, DOI
-FROM [spread]({{< ref "spread" >}})
-SORT Year ASC
-```
+_Publication that use this measure:_
+
+| Title                                                                                                     | Authors                  |
+| --------------------------------------------------------------------------------------------------------- | ------------------------ |
+| [A regional perspective to the study of affective polarisation]({{< ref "usecases/bettarelli_regional_2023.md" >}})   | Bettarelli et al. (2023) |
+| [Affective Polarisation in Comparative and Longitudinal Perspective]({{< ref "usecases/garzia_affective_2023.md" >}}) | Garzia et al. (2023)     |
+| [Affective polarisation in multiparty systems]({{< ref "usecases/wagner_affective_2021.md" >}})                       | Wagner (2021)            |
 

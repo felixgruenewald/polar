@@ -9,23 +9,19 @@ The Eurobarometer (EB) surveys public opinion in Europe, covering the state of p
 
 The combination of a wide range of topics covered regularly over a long period of time and its broad geographical coverage make the Eurobarometer a unique source of data on public opinion in Europe. With regard to polarization, EB surveys include several items that can be used as measures of ideological polarization at the elite and mass levels.
 
-# Items
-```dataview
-TABLE Name as "Item"
-FROM "Variables"
-WHERE contains(datasets, [EB]({{< ref "EB" >}}))
-```
-
 # Measures
-```dataview
-TABLE Name as "Measure", Polarization, Level
-FROM "Measures"
-WHERE contains(Data, [EB]({{< ref "EB" >}})) OR contains(Data, "*[EB]({{< ref "EB" >}})*")
-```
+Measures that use this dataset:
+
+| Measure                                                        | Polarization | Level       |
+| -------------------------------------------------------------- | ------------ | ----------- |
+| [Party-System Extremism]({{< ref "measures/party-system_extremism.md" >}}) | ideological  | elite       |
+| [SD]({{< ref "measures/sd.md" >}})                                         | ideological  | elite, mass |
+
 # Use cases
-```dataview
-TABLE without ID Authors, Year, Title, Publication, DOI
-FROM "Use cases"
-WHERE contains(Data, [EB]({{< ref "EB" >}}))
-SORT Year DESC
-```
+Publications that use this dataset:
+
+| Title                                                                                          | Authors                   |
+| ---------------------------------------------------------------------------------------------- | ------------------------- |
+| [Do Voters Polarize When Radical Parties Enter Parliament?]({{< ref "usecases/bischof_voters_2019.md" >}}) | Bischof and Wagner (2019) |
+| [Parties' Policy Programmes and the Dog that Didn't Bark]({{< ref "usecases/ezrow_parties_2008.md" >}})    | Ezrow (2008)              |
+

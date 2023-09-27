@@ -14,7 +14,7 @@ usecases:
 math: true
 ---
 # Description
-The (weighted) mean distance from the most liked party is a measure suggested by [wagner_affective_2021]({{< ref "wagner_affective_2021" >}}), although he considers it inferior to the (weighted) spread. It measures the average discrepancy between like for the most liked party and like/dislike for all other parties. Wagner computes the (weighted) distance based on the CSES dataset, but in principle it can be applied to other datasets that contain the required items, i.e., like-dislike scores.
+The (weighted) mean distance from the most liked party is a measure suggested by [Wagner (2021)]({{< ref "wagner_affective_2021" >}}), although he considers it inferior to the (weighted) spread. It measures the average discrepancy between like for the most liked party and like/dislike for all other parties. Wagner computes the (weighted) distance based on the CSES dataset, but in principle it can be applied to other datasets that contain the required items, i.e., like-dislike scores.
 ​
 # Operationalization
 Wagner proceeds in two steps. First, they calculate the (weighted) mean distance for each respondent. Second, they aggregate to the party-system level by taking the mean of the respondents' distance scores. The unweighted and weighted distance measures are calculated as follows:
@@ -42,10 +42,9 @@ We have written a custom R functions for coding this measure and assembled it, a
     width="100%"></iframe>
 
 # Use cases
-*Publications that use this measure*:
-```dataview
-TABLE without ID Authors, Year, Title, Publication, DOI
-FROM "usecases"
-Where contains(measures, distance)
-SORT Year ASC
-```
+_Publication that use this measure:_
+
+| Title                                                                               | Authors       |
+| ----------------------------------------------------------------------------------- | ------------- |
+| [Affective polarisation in multiparty systems]({{< ref "usecases/wagner_affective_2021.md" >}}) | Wagner (2021) |
+

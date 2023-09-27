@@ -15,7 +15,7 @@ usecases:
 math: true
 ---
 # Description
-Party-system compactness, proposed by [ezrow_parties_2008]({{< ref "ezrow_parties_2008" >}}), measures the dispersion of parties' ideological positions relative to the dispersion of voters' positions, borrowing from [alvarez_party_2004]({{< ref "alvarez_party_2004" >}}). Ezrow applies the measure to data from the [eb]({{< ref "eb" >}}), while [dow_partysystem_2011]({{< ref "dow_partysystem_2011" >}}) uses [cses]({{< ref "cses" >}}) data.
+Party-system compactness, proposed by [Ezrow (2008)]({{< ref "ezrow_parties_2008" >}}), measures the dispersion of parties' ideological positions relative to the dispersion of voters' positions, borrowing from [Alvarez and Nagler (2004)]({{< ref "alvarez_party_2004" >}}). Ezrow applies the measure to data from the [eb]({{< ref "eb" >}}), while [Dow (2011)]({{< ref "dow_partysystem_2011" >}}) uses [cses]({{< ref "cses" >}}) data.
 
 # Operationalization 
 The weighted version computes as follows:
@@ -32,10 +32,10 @@ where $n$ is the absolute number of parties in country-year $k$.
 We have written a custom R functions for coding this measure and assembled it, along with other functions, into an R package that is still under development. The package can be installed from and the code can be viewed on [GitHub](https://github.com/felixgruenewald/polref). Comments, suggestions, and feature requests are welcome.
 
 # Use cases
-*Publications that use this measure*:
+_Publication that use this measure:_
 
-```dataview
-TABLE without ID Authors, Year, Title, Publication, DOI
-FROM [party-system_extremism]({{< ref "party-system_extremism" >}})
-SORT Year ASC
-```
+| Title                                                                                                           | Authors      |
+| --------------------------------------------------------------------------------------------------------------- | ------------ |
+| [Party-System Extremism in Majoritarian and Proportional Electoral Systems]({{< ref "usecases/dow_partysystem_2011.md" >}}) | Dow (2011)   |
+| [Parties' Policy Programmes and the Dog that Didn't Bark]({{< ref "usecases/ezrow_parties_2008.md" >}})                     | Ezrow (2008) |
+

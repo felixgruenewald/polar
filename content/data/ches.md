@@ -9,30 +9,22 @@ The Chapel Hill Expert Surveys (CHES) estimate party positioning by surveying po
 
 CHES topics include party positions on European integration, EU policies, the general left/right dimension, the economic left/right dimension, and the cultural left/right dimension. More recent surveys also include questions on non-EU policy issues such as anti-elite rhetoric, immigration, redistribution, decentralization, and environmental policy. With regard to polarization, the CHES includes several items and dimensions that can be used to measure ideological polarization at the elite level. 
 
-# Variables
-```dataview
-TABLE Name as "Item"
-FROM "variables"
-WHERE contains(datasets, "ches")
-```
+# Items
+Items that can be found in this dataset:
+- [Party Positions on Issue Dimension]({{< ref "variables/party-position.md" >}})
 
 # Measures
-<!--```dataview
-TABLE name as "Measure", polarisation, level
-FROM "measures"
-WHERE contains(data, "ches") OR contains(datasec, "ches")
-```-->
+Measures that use this dataset:
 
-|File|Measure|polarisation|level|
-|---|---|---|---|
-|[range](app://obsidian.md/measures/range.md)|Range|- ideological|- elite|
-|[sd](app://obsidian.md/measures/sd.md)|SD|- ideological|- elite<br>- mass|
-
+| Measure                      | Polarization | Level       |
+| ---------------------------- | ------------ | ----------- |
+| [Range]({{< ref "measures/range.md" >}}) | ideological  | elite       |
+| [SD]({{< ref "measures/sd.md" >}})       | ideological  | elite, mass |
 
 # Use cases
-```dataview
-TABLE without ID Authors, Year, Title, Publication, DOI
-FROM "usecases"
-WHERE contains(data, "ches") OR contains(datasec, "ches")
-SORT Year DESC
-```
+Publications that use this dataset:
+
+| Title                                                                                                      | Authors               |
+| ---------------------------------------------------------------------------------------------------------- | --------------------- |
+| [Cleavage politics, polarisation and participation in Western Europe]({{< ref "usecases/borbath_cleavage_2023.md" >}}) | Borbáth et al. (2023) |
+

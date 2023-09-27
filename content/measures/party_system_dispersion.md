@@ -15,7 +15,7 @@ usecases:
 math: true
 ---
 # Description
-[Ezrow (2007)]({{< ref "ezrow_variance_2007 " >}}) proposed the (Weighted) Party System Dispersion measure, which is basically a weighted standard deviation formula. Both [ezrow_variance_2007]({{< ref "ezrow_variance_2007" >}}) and [dreyer_does_2019]({{< ref "dreyer_does_2019" >}}) use MARPOR data to measure party positions, but in principle it can be used with other datasets that contain the required information, i.e. party positions.
+[Ezrow (2007)]({{< ref "ezrow_variance_2007 " >}}) proposed the (Weighted) Party System Dispersion measure, which is basically a weighted standard deviation formula. Both [Ezrow (2007)]({{< ref "ezrow_variance_2007" >}}) and [Dreyer and Bauer (2019)]({{< ref "dreyer_does_2019" >}}) use MARPOR data to measure party positions, but in principle it can be used with other datasets that contain the required information, i.e. party positions.
 
 # Operationalization
 The (weighted) party system dispersion is measured as follows:
@@ -31,10 +31,10 @@ where $P_{jk}$ is the ideological position of party $j$ in country $k$ and $\bar
 We have written a custom R functions for coding this measure and assembled it, along with other functions, into an R package that is still under development. The package can be installed from and the code can be viewed on [GitHub](https://github.com/felixgruenewald/polref). Comments, suggestions, and feature requests are welcome.
 
 # Use cases
-*Publications that use this measure*:
-```dataview
-TABLE without ID Authors, Year, Title, Publication, DOI
-FROM [party_system_dispersion]({{< ref "party_system_dispersion" >}})
-SORT Year ASC
-```
+_Publication that use this measure:_
+
+| Title                                                                             | Authors                 |
+| --------------------------------------------------------------------------------- | ----------------------- |
+| [Does voter polarisation induce party extremism?]({{< ref "usecases/dreyer_does_2019.md" >}}) | Dreyer and Bauer (2019) |
+| [The Variance Matters]({{< ref "usecases/ezrow_variance_2007.md" >}})                         | Ezrow (2007)            |
 

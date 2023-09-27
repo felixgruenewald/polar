@@ -2,6 +2,7 @@
 datasets:
   - cses
   - ches
+title: Party Positions on Issue Dimension
 ---
 # Variable description
 
