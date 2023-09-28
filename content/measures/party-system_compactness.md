@@ -1,5 +1,5 @@
 ---
-name: Compactness
+name: Party-System Compactness
 title: Party-system compactness
 polarisation:
   - ideological

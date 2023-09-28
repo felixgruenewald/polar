@@ -59,7 +59,7 @@ googleAnalytics = "UA-PROPERTY_ID"
   params.header = true
   weight = 9
 [[menu.main]]
-  name = 'polaR app'
+  name = 'Data Visualization'
   url = '/projects/polar/'
   weight = 10
 [[menu.main]]
@@ -71,21 +71,8 @@ googleAnalytics = "UA-PROPERTY_ID"
 
 [[menu.social]]
   name = 'GitHub'
-  url = 'https://github.com/felixgruenewald'
+  url = 'https://github.com/felixgruenewald/polref'
   weight = 3
-[[menu.social]]
-  name = 'Email'
-  url = 'mailto:felixgruenewald@outlook.de'
-  weight = 8
-[[menu.social]]
-  name = 'RSS'
-  url = '/articles/index.xml'
-  weight = 9
-[[menu.social]]
-  name = 'ORCID'
-  url = 'https://orcid.org/0000-0002-6179-6693'
-  weight = 10
-
 
 # syntax highlight settings
 [markup]

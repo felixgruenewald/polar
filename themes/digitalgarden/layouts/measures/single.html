@@ -30,7 +30,7 @@
           <i>{{ $title }}</i>
         </div>
         <div class="text-sm text-slate-500 dark:text-slate-400 line-clamp-2">
-          <b>Polarisation:</b>{{ range .Params.polarisation }}<span style="text-transform: capitalize;"> {{ . }} </span>{{end}}</b>
+          <b>Polarization:</b>{{ range .Params.polarisation }}<span style="text-transform: capitalize;"> {{ . }} </span>{{end}}</b>
         </div>
         <div class="text-sm text-slate-500 dark:text-slate-400 line-clamp-2">
           <b>Level:</b>{{ range .Params.level }}<span style="text-transform: capitalize;"> {{ . }} </span>{{end}}</b>
@@ -55,7 +55,7 @@
       <!-- Draw a box around the properties -->
       <div class="not-prose"> 
       <div class="boxInfo" style="color: black;"><b>Quick Info</b><br>
-        <b>Polarisation:</b>{{ range .Params.polarisation }}
+        <b>Polarization:</b>{{ range .Params.polarisation }}
           <a href="/polarisation/{{ . }}"><span class="textbubbles capitalize">{{ . }}</span></a>
           {{ end }}<br>
         <b>Level:</b>{{ range .Params.level }}
