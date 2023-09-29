@@ -20,12 +20,12 @@ Party-system compactness, proposed by [Ezrow (2008)]({{< ref "ezrow_parties_2008
 ## Operationalization 
 The weighted version computes as follows:
 
-$$WPE_k=\frac{\sum_{j=1}VS_j|(P_{jk}-\bar{V}_k)|}{\sigma_Vk}$$
+$$WPE_k=\frac{\sum_{j=1}VS_j|(P_{jk}-\bar{V}_k)|}{\sigma _{V_k}}$$
 
 where: $V_k$ is the average left-right self-placement of respondents in country-year $k$, $P_{jk}$ is the ideological position of party $j$ in country-year $k$, $VS_j$ is the vote share for party $j$, and $\sigma_{vk}$ is the standard deviation of respondents' left-right self-placement in country-year $k$.
 The unweighted version is computed as follows:
 
-$$UPE_k= \frac{[\sum_{j=1}|(P_{jk}-\bar{V}_k)|]/n}{\sigma_Vk}$$
+$$UPE_k= \frac{[\sum_{j=1}|(P_{jk}-\bar{V}_k)|]/n}{\sigma _{V_k}}$$
 
 where $n$ is the absolute number of parties in country-year $k$.
 

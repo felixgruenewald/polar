@@ -44,6 +44,7 @@ cses_imd <- spread_likedislike(cses_imd)
 ```
 We have written a custom R functions for coding this measure and assembled it, along with other functions, into an R package that is still under development. The package can be installed from and the code can be viewed on [GitHub](https://github.com/felixgruenewald/polref). Comments, suggestions, and feature requests are welcome.
 
+## Visualization
 <iframe src="https://felixgruenewald.shinyapps.io/polarapp/?dataset=cses&measure=spread_likedislike,spread_likedislike_wgt"
     frameborder="0"
     scrolling="yes" 

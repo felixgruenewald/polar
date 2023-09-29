@@ -17,6 +17,14 @@ Measures that use this dataset:
 | [Party-System Extremism]({{< ref "measures/party-system_extremism.md" >}}) | ideological  | elite       |
 | [SD]({{< ref "measures/sd.md" >}})                                         | ideological  | elite, mass |
 
+## Visualization
+<iframe src="https://felixgruenewald.shinyapps.io/polarapp/?dataset=eb&measure=sd_mass"
+    frameborder="0"
+    scrolling="yes" 
+    style="overflow:hidden;width:100%" 
+    height="1000" 
+    width="100%"></iframe>
+
 ## Use cases
 Publications that use this dataset:
 
