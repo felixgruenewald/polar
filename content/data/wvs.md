@@ -2,6 +2,9 @@
 name: WVS
 title: World Value Survey
 link: https://www.worldvaluessurvey.org/wvs.jsp
+aliases:
+  - WVS
+  - World Value Survey
 ---
 ## Description
 

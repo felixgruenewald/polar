@@ -10,14 +10,9 @@ object:
 ## Variable description
 
 Short 1-2 sentence description of the variable.
-## Measures
-```dataview
-TABLE Name as "Measure", Polarization, Level
-FROM "measures"
-WHERE contains(variables, "party-position")
-```
+
 ## Datasets & Variants
-## [cses]({{< ref "cses" >}})
+### [CSES]({{< ref "cses" >}})
 ###### `E3019_A` LEFT-RIGHT - PARTY A
 > "In politics people sometimes talk of left and right. Where would you place [PARTY A] on a scale from 0 to 10 where 0 means the left and 10 means the right?"
 
@@ -41,7 +36,7 @@ WHERE contains(variables, "party-position")
 
 Further variables: `E3019_B`LEFT_RIGHT - PARTY B, `E3019_C`LEFT_RIGHT - PARTY C, `E3019_D`LEFT_RIGHT - PARTY D, `E3019_E`LEFT_RIGHT - PARTY E, `E3019_F`LEFT_RIGHT - PARTY F, `E3019_F`LEFT_RIGHT - ADDITIONAL - PARTY G, `E3019_H`LEFT_RIGHT - ADDITIONAL - PARTY H, `E3019_I`LEFT_RIGHT - ADDITIONAL - PARTY I.
 
-## [ches]({{< ref "ches" >}})
+### [CHES]({{< ref "ches" >}})
 ###### `LRGEN`Overall ideological stance
 > "Position of the party in YEAR in terms of its overall ideological stance."
 
@@ -93,7 +88,7 @@ Further variables: -
 
 Further variables: -
 
-## [ees]({{< ref "ees" >}})
+### [EES]({{< ref "ees" >}})
 ###### `...` Party left right
 > "And about where would you place the following political parties on this scale? Which number from 0 to 10, where '0' means "left" and '10' means "right" best describes these parties?"
 
@@ -113,7 +108,7 @@ Further variables: -
 
 Further variables: (matrix...?)
 
-## [marpor]({{< ref "marpor" >}})
+### [Marpor]({{< ref "marpor" >}})
 ###### `rile` Party left right
 >"Right-left position of party as given in Michael Laver/Ian Budge (eds.)"
 
@@ -122,3 +117,11 @@ Further variables: (matrix...?)
 > 100. ?
 
 Further variables: 
+
+## Measures
+Measures that use this variable:
+```dataview
+TABLE Name as "Measure", Polarization, Level
+FROM "measures"
+WHERE contains(variables, "party-position")
+```

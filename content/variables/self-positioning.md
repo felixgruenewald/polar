@@ -9,14 +9,9 @@ object:
 ## Variable description
 
 Short 1-2 sentence description of the variable.
-## Measures
-```dataview
-TABLE Name as "Measure", Polarization, Level
-FROM "measures"
-WHERE contains(variables, "self-positioning")
-```
+
 ## Datasets & Variants
-## [cses]({{< ref "cses" >}})
+### [CSES]({{< ref "cses" >}})
 ###### `E3020` LEFT-RIGHT - SELF
 > "Where would you place yourself on this scale?"
 
@@ -38,7 +33,7 @@ WHERE contains(variables, "self-positioning")
 > 98. MISSING
 
 Further variables: -
-#### [ess]({{< ref "ess" >}})
+### [European Social Survey]({{< ref "ess" >}})
 ###### `lrscale` Placement on the left right scale
 > "In politics people sometimes talk of “left ́ and “right ́. Using this card, where would you place yourself on this scale, where 0 means the left and 10 means the right?"
 
@@ -59,7 +54,7 @@ Further variables: -
 
 Further variables:  -
 
-### [eb]({{< ref "eb" >}})
+### [Eurobarometer]({{< ref "eb" >}})
 ###### `...` Personal left right
 > "In political matters people talk of "the left" and "the right". How would you place your views on this scale?"
 
@@ -79,7 +74,7 @@ Further variables:  -
 
 Further variables: -
 
-## [ees]({{< ref "ees" >}})
+### [EES]({{< ref "ees" >}})
 ###### `...`Personal left right
 > "In political matters people talk of "the left" and "the right". What is your position? Please indicate your views using any number on an 11-point-scale. On this scale, where 0 means "left" and 10 means "right," which number best describes your position?"
 
@@ -99,7 +94,7 @@ Further variables: -
 
 Further variables: -
 
-## [wvs]({{< ref "wvs" >}})
+### [World Value Survey]({{< ref "wvs" >}})
 ###### `E033`Self positioning in political scale
 >"In political matters, people talk of "the left" and "the right." How would you place your views on this scale, generally speaking?"
 
@@ -116,3 +111,11 @@ Further variables: -
 > ...?
 
 Further variables: -
+
+## Measures
+Measure that use this variable:
+```dataview
+TABLE Name as "Measure", Polarization, Level
+FROM "measures"
+WHERE contains(variables, "self-positioning")
+```

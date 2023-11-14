@@ -13,8 +13,6 @@
       <a class="article block px-3 py-4 hover:bg-slate-200 dark:hover:bg-slate-700" href="{{ .RelPermalink }}">
 
         {{ $title := .Params.title }}
-        {{ $polarisation := .Params.polarisation }}
-        {{ $level := .Params.level }}
         {{ $datasets := .Params.datasets }}
 
         <h3 class="text-lg font-semibold mb-0.5">{{ $title }}</h3>
@@ -26,9 +24,17 @@
     </div>
   </section>
 
-  <main class="hidden md:grid h-screen place-items-center flex-1">
-    <p class="text-center p-8 text-2xl text-slate-300 dark:text-slate-700">Select a post to read</p>
-  </main>
+  <div class="overflow-y-auto h-screen w-full">
+    <article class="px-6 py-20 w-full mx-auto dark:prose-invert prose lg:prose-lg h-fit prose-img:mx-auto">
+
+      {{ $title := .Params.title }}
+
+      <h1 class="!mb-2">{{ $title }}</h1>
+
+      {{ .Content }}
+      
+    </article>
+  </div>
 
 </div>
 

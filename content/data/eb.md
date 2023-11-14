@@ -2,6 +2,9 @@
 name: EB
 title: Eurobarometer
 link: https://europa.eu/eurobarometer/screen/home
+aliases:
+  - EB
+  - Eurobarometer
 ---
 ## Description
 
