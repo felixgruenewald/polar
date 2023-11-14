@@ -2,6 +2,8 @@
 name: CSES
 title: Comparative Study of Electoral Systems
 link: https://cses.org/
+aliases:
+  - CSES
 ---
 ## Description
 

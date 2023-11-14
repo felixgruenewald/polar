@@ -1,21 +1,22 @@
 ---
 name: Party-System Extremism
-title:  Party-System Extremism
+title: Party-System Extremism
 polarisation:
- - ideological
-level: 
- - elite
-data: 
- - eb
- - cses
-variables: 
-usecases: 
- - ezrow_parties_2008
- - dow_partysystem_2011
+  - ideological
+level:
+  - elite
+data:
+  - eb
+  - cses
+variables:
+  - party-position
+usecases:
+  - ezrow_parties_2008
+  - dow_partysystem_2011
 math: true
 ---
 ## Description
-Party-system compactness, proposed by [Ezrow (2008)]({{< ref "ezrow_parties_2008" >}}), measures the dispersion of parties' ideological positions relative to the dispersion of voters' positions, borrowing from [Alvarez and Nagler (2004)]({{< ref "alvarez_party_2004" >}}). Ezrow applies the measure to data from the [eb]({{< ref "eb" >}}), while [Dow (2011)]({{< ref "dow_partysystem_2011" >}}) uses [cses]({{< ref "cses" >}}) data.
+Party-system compactness, proposed by [Ezrow (2008)]({{< ref "ezrow_parties_2008" >}}), measures the dispersion of parties' ideological positions relative to the dispersion of voters' positions, borrowing from [Alvarez and Nagler (2004)]({{< ref "alvarez_party_2004" >}}). Ezrow applies the measure to data from the [Eurobarometer]({{< ref "eb" >}}), while [Dow (2011)]({{< ref "dow_partysystem_2011" >}}) uses [CSES]({{< ref "cses" >}}) data.
 
 ## Operationalization 
 The weighted version computes as follows:

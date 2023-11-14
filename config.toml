@@ -53,6 +53,10 @@ googleAnalytics = "UA-PROPERTY_ID"
   name = 'Use Cases'
   url = '/usecases'
   weight = 7
+[[menu.main]]
+  name = 'Variables'
+  url = '/variables'
+  weight = 8
 
 [[menu.main]]
   name = 'Direct Links'

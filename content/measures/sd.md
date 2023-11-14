@@ -2,23 +2,25 @@
 name: SD
 title: Standard Deviation
 polarisation:
- - ideological
-level: 
- - elite
- - mass
+  - ideological
+level:
+  - elite
+  - mass
 data:
- - cses
- - eb
- - ees
- - ches
+  - cses
+  - eb
+  - ees
+  - ches
 datasec:
- - ess
- - marpor
-variables: 
-usecases: 
- - hobolt_mobilising_2019
- - bischof_voters_2019
- - moral_relationship_2023
+  - ess
+  - marpor
+variables:
+  - self-positioning
+  - party-position
+usecases:
+  - hobolt_mobilising_2019
+  - bischof_voters_2019
+  - moral_relationship_2023
 math: true
 ---
 ## Description

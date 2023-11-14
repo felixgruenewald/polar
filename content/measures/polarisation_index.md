@@ -8,7 +8,8 @@ level:
   - mass
 data:
   - cses
-variables: 
+variables:
+  - party-position
 usecases:
   - dalton_quantity_2008
   - dalton_modeling_2021

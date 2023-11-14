@@ -2,17 +2,18 @@
 name: Spread
 title: (Weighted) Spread of like-dislike scores
 polarisation:
- - affective
-level: 
- - mass
-data: 
- - cses
-variables: 
+  - affective
+level:
+  - mass
+data:
+  - cses
+variables:
+  - like-dislike
 usecases:
- - wagner_affective_2021
- - bettarelli_regional_2023
- - borbath_cleavage_2023
- - garzia_affective_2023 
+  - wagner_affective_2021
+  - bettarelli_regional_2023
+  - borbath_cleavage_2023
+  - garzia_affective_2023
 math: true
 ---
 ## Description

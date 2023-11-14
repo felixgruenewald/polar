@@ -2,22 +2,23 @@
 name: Variance
 title: Weighted Variance
 polarisation:
- - ideological 
+  - ideological
 level:
- - elite
+  - elite
 data:
- - cses
- - wvs
- - marpor
-variables: 
+  - cses
+  - wvs
+  - marpor
+variables:
+  - party-position
 usecases:
- - sigelman_leftright_1978
- - hazan_centre_1997
- - bejar_elite_2020
- - birch_political_2020
- - lupu_party_2015
- - taylor_party_1971
- - dassonneville_party_2021
+  - sigelman_leftright_1978
+  - hazan_centre_1997
+  - bejar_elite_2020
+  - birch_political_2020
+  - lupu_party_2015
+  - taylor_party_1971
+  - dassonneville_party_2021
 math: true
 ---
 ## Description
@@ -26,9 +27,9 @@ The weighted variance of party ideology scores was the first measure used to mea
 ## Operationalization
 The formula for the weighted variance is as follows:
 
-$$V= \sum_{i=n}^N \omega_i (x_i - \bar{x})^2$$
+$$V= \sum_{i=n}^N f_i (x_i - \bar{x})^2$$
 
-where $N$ is the number of parties, $\omega_i$ is the vote or seat share of party $p$, $\bar{p}$ is the weighted average of the positions of all parties. If survey data are used, $p_j$ is determined as the average of all respondents' rankings of party $p$.
+where $N$ is the number of parties, $f_i$ is the vote or seat share of party $i$, $x_i$ is the ideological position of party $i$, and $\bar{x}$ is the weighted average of the positions of all parties. If survey data are used, $x_i$ is determined as the average of all respondents' rankings of party $f$.
 
 ## polaR
 ```r

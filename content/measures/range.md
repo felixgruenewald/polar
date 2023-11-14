@@ -2,19 +2,20 @@
 name: Range
 title: Range Between Outer-Right and -Left Parties
 polarisation:
- - ideological
-level: 
- - elite
-data: 
- - marpor
- - ches
-variables: 
+  - ideological
+level:
+  - elite
+data:
+  - marpor
+  - ches
+variables:
+  - party-position
 usecases:
-- abedi_challenges_2002
-- crepaz_impact_1990
-- matakos_electoral_2016
-- andrews_spatial_2009
-- wessels_meaningful_2008
+  - abedi_challenges_2002
+  - crepaz_impact_1990
+  - matakos_electoral_2016
+  - andrews_spatial_2009
+  - wessels_meaningful_2008
 math: true
 ---
 ## Description
