@@ -2,8 +2,6 @@
 name: ESS
 title: European Social Survey
 link: https://www.europeansocialsurvey.org/)
-aliases:
-  - European Social Survey
 ---
 ## Description
 

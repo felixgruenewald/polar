@@ -2,9 +2,6 @@
 name: EES
 title: European Election Studies
 link: https://www.gesis.org/en/services/finding-and-accessing-data/international-survey-programs/european-election-studies
-aliases:
-  - European Election Studies
-  - EES
 ---
 ## Description
 
