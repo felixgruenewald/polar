@@ -28,11 +28,20 @@
     <article class="px-6 py-20 w-full mx-auto dark:prose-invert prose lg:prose-lg h-fit prose-img:mx-auto">
 
       {{ $title := .Params.title }}
+      {{ $description := .Params.description }}
+      {{ $footnote := .Params.footnote }}
 
       <h1 class="!mb-2">{{ $title }}</h1>
+      {{ $description}}
+
+      <div class="table" style="overflow: auto; display: block">  
 
       {{ .Content }}
+
+      </div>
       
+      <i>*{{ $footnote }}</i>
+
     </article>
   </div>
 

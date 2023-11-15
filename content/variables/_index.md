@@ -1,13 +1,9 @@
 ---
-
 title: Variables
-
+description: This section provides an overview of the variables most commonly relied upon to measure polarization. <br>These variables occur in various different forms in different datasets. Below you can find an overview, in an attempt to collect and compare the availability of the items.
+footnote: EES and WVS information is currently missing, as development for these datasets is yet to occur. The table will be updated continously.
 ---
 
-This section provides an overview of the variables most commonly relied upon to measure polarization.
-These variables occur in various different forms in different datasets. Below you can find an overview, in an attempt to collect and compare the availability of the items.
-
-  
 | **Description**                           | **CSES IMD** | **CSES 5** | **ESS** | **CHES** | **Marpor** | **Eurobarometer** |
 |:----------------------------------------- |:------------:|:----------:|:-------:|:--------:|:----------:|:-----------------:|
 | **Left-Right** (Expert judgement)         |   IMD5012_   |   E5018_   |         |  lrgen   |    rile    |                   |

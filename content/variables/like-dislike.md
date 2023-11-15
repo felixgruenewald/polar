@@ -33,9 +33,10 @@ Further variables: **IMD3008_B** **E3017_B**LIKE-DISLIKE - PARTY B, **E3017_C** 
 ---
 #### LIKE-DISLIKE LEADER X
 _E3018_A_
->And what do you think of the presidential candidates/party leaders? After I read the name of a presidential candidate/party leader, please rate them on a scale from 0 to 10, where 0 means you strongly dislike that candidate and 10 means that you strongly like that candidate. If I come to a presidential candidate/party leader you haven't heard of or you feel you do not know enough about, just say so. The first is [LEADER A].
 
 **Scale:** 0 (strongly dislike) - 10 (strongly like)
+
+**Wording:** And what do you think of the presidential candidates/party leaders? After I read the name of a presidential candidate/party leader, please rate them on a scale from 0 to 10, where 0 means you strongly dislike that candidate and 10 means that you strongly like that candidate. If I come to a presidential candidate/party leader you haven't heard of or you feel you do not know enough about, just say so. The first is [LEADER A].
 
 <!--
 >1. HAVEN'T HEARD OF LEADER
