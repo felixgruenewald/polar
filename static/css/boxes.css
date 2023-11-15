@@ -18,7 +18,7 @@
   [class*=" box"] {
     /* use !important to prevent issues with browser extensions that change fonts */
     font-family: "icons-boxes" !important;
-    background-color: #fffeb4a3;
+    background-color: #ffffff00;
   
     padding: 0.5em;
     margin-top: 1em;
@@ -26,7 +26,7 @@
     border-radius: 10px 10px 10px 10px;
     -moz-border-radius: 10px 10px 10px 10px;
     -webkit-border-radius: 10px 10px 10px 10px;
-    border: 2px solid #b0b0b0;
+    border: 2px solid #b0b0b06b;
   
     /* Better Font Rendering =========== */
     -webkit-font-smoothing: antialiased;
@@ -85,6 +85,6 @@
   }
   
   .boxInfo {
-    background-color: #bde5f8;
+    background-color: rgba(117, 211, 255, 0.754);
   }
   
