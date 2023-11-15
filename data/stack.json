@@ -1,12 +1,5 @@
 [
   {
-    "name": "TU Chemnitz",
-    "description": "Our university",
-    "link": "https://www.tu-chemnitz.de/phil/politik/pf/professur/professur.php.en/",
-    "icon": "/images/logo_tu.png",
-    "tag": ""
-  },
-  {
     "name": "Hugo",
     "description": "The framework used to build this website",
     "link": "https://gohugo.io/",
@@ -18,13 +11,6 @@
     "description": "The hugo theme this website is based on",
     "link": "https://github.com/apvarun/digital-garden-hugo-theme/",
     "icon": "/images/dg_logo.tiff",
-    "tag": ""
-  },
-  {
-    "name": "GitHub",
-    "description": "Code hosting for this website",
-    "link": "https://github.com/felixgruenewald/polar",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png",
     "tag": ""
   }
 ]

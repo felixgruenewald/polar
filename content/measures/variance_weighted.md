@@ -33,10 +33,12 @@ where $N$ is the number of parties, $f_i$ is the vote or seat share of party $i$
 
 ## polaR
 ```r
-tbd
+variance_data <- variance(cses5)
 ```
+{{< polarref >}}
 
-We have written a custom R functions for coding this measure and assembled it, along with other functions, into an R package that is still under development. The package can be installed from and the code can be viewed on [GitHub](https://github.com/felixgruenewald/polref). Comments, suggestions, and feature requests are welcome.
+## Visualization
+{{< shinyapp cses "variance_wgt" >}}
 
 ## Use cases
 _Publication that use this measure:_

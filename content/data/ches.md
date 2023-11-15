@@ -22,13 +22,8 @@ Measures that use this dataset:
 | [SD]({{< ref "measures/sd.md" >}})       | ideological  | elite, mass |
 
 ## Visualization
-<iframe src="https://felixgruenewald.shinyapps.io/polarapp/?dataset=ches&measure=sd"
-    frameborder="0"
-    scrolling="yes" 
-    style="overflow:hidden;width:100%" 
-    height="1000" 
-    width="100%"></iframe>
-    
+{{< shinyapp "ches" "sd_expert_parties" >}}
+
 ## Use cases
 Publications that use this dataset:
 

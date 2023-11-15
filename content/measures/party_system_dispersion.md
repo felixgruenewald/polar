@@ -24,6 +24,9 @@ $Weighted~party~system~dispersion = \sqrt{\sum_{j=1} VS_{j} (P_{jk} - \bar{P}_k)
 
 where $P_{jk}$ is the ideological position of party $j$ in country $k$ and $\bar{P_k}$ is the weighted average of the left-right ideological positions of all parties in country year $k$. $VS_j$ is the vote share of party $j$ in the last national election.
 
+## Visualization
+{{< shinyapp cses "dispersion" >}}
+
 ## Use cases
 _Publication that use this measure:_
 

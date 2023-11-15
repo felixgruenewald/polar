@@ -31,19 +31,16 @@ The standard deviation of party or voter positions is calculated as follows:
 $$s_i = \sqrt{\frac{\sum_{i=1}^n(p_i-\bar{p})^2}{n}}$$
 where the subscript $i$ stands for an individual respondent or party, $p_i$ is the position of a respondent or party $i$, $\bar{p}$ is the average position of all respondents or parties, and $n$ is the number of parties or respondents.
 
+
+
 ## polaR
 ``` r
-tbd
+sd_data <- sd_mass(cses5, issue = "leftright")
 ```
-We have written a custom R functions for coding this measure and assembled it, along with other functions, into an R package that is still under development. The package can be installed from and the code can be viewed on [GitHub](https://github.com/felixgruenewald/polref). Comments, suggestions, and feature requests are welcome.
+{{< polarref >}}
 
 ## Visualization
-<iframe src="https://felixgruenewald.shinyapps.io/polarapp/?dataset=cses,eb,ess&measure=sd_parties"
-    frameborder="0"
-    scrolling="yes" 
-    style="overflow:hidden;width:100%" 
-    height="1000" 
-    width="100%"></iframe>
+{{< shinyapp "cses,eb" "sd_mass,sd_partyperception,sd_expert_parties" >}}
 
 ## Use cases
 _Publication that use this measure:_

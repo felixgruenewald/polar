@@ -18,6 +18,9 @@ Measures that use this dataset:
 | [Range]({{< ref "measures/range.md" >}})                        | ideological  | elite |
 | [Variance]({{< ref "measures/variance_weighted.md" >}})         | ideological  | elite |
 
+## Visualization
+{{< shinyapp "marpor" "sd_expert_parties" >}}
+
 ## Use cases
 Publications that use this dataset:
 

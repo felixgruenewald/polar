@@ -29,12 +29,7 @@ Measures that use this dataset:
 | [Variance]({{< ref "measures/variance_weighted.md" >}})                    | ideological  | elite       |
 
 ## Visualization
-<iframe src="https://felixgruenewald.shinyapps.io/polarapp/?dataset=cses&measure=api,polarisation_index,spread_likedislike_wgt"
-    frameborder="0"
-    scrolling="yes" 
-    style="overflow:hidden;width:100%" 
-    height="1000" 
-    width="100%"></iframe>
+{{< shinyapp "cses" "api,sd_mass,spread_like_wgt,polarization_index" >}}
 
 ## Use cases
 Publications that use this dataset:

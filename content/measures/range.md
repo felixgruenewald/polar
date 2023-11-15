@@ -29,17 +29,12 @@ where $lr_p$ is the left-right position of a party $p$ and the measure captures 
 
 ## polaR
 ```r
-tbd
+range_data <- range(cses5, issue = "leftright")
 ```
-We have written a custom R functions for coding this measure and assembled it, along with other functions, into an R package that is still under development. The package can be installed from and the code can be viewed on [GitHub](https://github.com/felixgruenewald/polref). Comments, suggestions, and feature requests are welcome.
+{{< polarref >}}
 
 ## Visualization
-<iframe src="https://felixgruenewald.shinyapps.io/polarapp/?dataset=cses&measure=ind_range"
-    frameborder="0"
-    scrolling="yes" 
-    style="overflow:hidden;width:100%" 
-    height="1000" 
-    width="100%"></iframe>
+{{< shinyapp cses "range_ind,range_agg" >}}
 
 ## Use cases
 _Publication that use this measure:_

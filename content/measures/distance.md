@@ -32,15 +32,10 @@ cses_imd <- polaR_import(source = "cses_imd", path = "path/to/dataset.dta")
 
 cses_imd <- distance(cses_imd)
 ```
-We have written a custom R functions for coding this measure and assembled it, along with other functions, into an R package that is still under development. The package can be installed from and the code can be viewed on [GitHub](https://github.com/felixgruenewald/polref). Comments, suggestions, and feature requests are welcome.
+{{< polarref >}}
 ​
 ## Visualization
-<iframe src="https://felixgruenewald.shinyapps.io/polarapp/?dataset=cses&measure=distance,distance_wgt"
-    frameborder="0"
-    scrolling="yes" 
-    style="overflow:hidden;width:100%" 
-    height="1000" 
-    width="100%"></iframe>
+{{< shinyapp cses "distance,distance_wgt" >}}
 
 ## Use cases
 _Publication that use this measure:_
