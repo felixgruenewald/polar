@@ -28,10 +28,10 @@ $$range = max(lr_p)-min(lr_p)$$
 where $lr_p$ is the left-right position of a party $p$ and the measure captures the difference between the left-most and right-most party, i.e., the range.
 
 ## polaR
+{{< polarref >}}
 ```r
 range_data <- range(cses5, issue = "leftright")
 ```
-{{< polarref >}}
 
 ## Visualization
 {{< shinyapp cses "range_ind,range_agg" >}}

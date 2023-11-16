@@ -26,13 +26,13 @@ Weighted: $Distance_i = \sqrt{\sum_{p=1}^p v_p (like_{ip} - like_{max,i})^2}$
 The subscript $i$ denotes an individual respondent, $p$ denotes a party, $max$ is the most liked party, and $v_p$ is the percentage of votes received by a party.
 ​
 ## polaR
+{{< polarref >}}
 ```r
 ## Illustrative R code for coding the measure based on the CSES data
 cses_imd <- polaR_import(source = "cses_imd", path = "path/to/dataset.dta")
 
 cses_imd <- distance(cses_imd)
 ```
-{{< polarref >}}
 ​
 ## Visualization
 {{< shinyapp cses "distance,distance_wgt" >}}

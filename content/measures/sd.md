@@ -34,10 +34,10 @@ where the subscript $i$ stands for an individual respondent or party, $p_i$ is t
 
 
 ## polaR
+{{< polarref >}}
 ``` r
 sd_data <- sd_mass(cses5, issue = "leftright")
 ```
-{{< polarref >}}
 
 ## Visualization
 {{< shinyapp "cses,eb" "sd_mass,sd_partyperception,sd_expert_parties" >}}

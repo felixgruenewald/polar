@@ -31,14 +31,14 @@ $$API = \sum_{n=1}^N[\sum_{m=1; m \neq n}^N ((Like_n-Like_m) \times (\frac{Vote~
 Given a like-dislike scale ranging from 0 to 10, the API score can  range from –10 to +10.
 ​
 ## polaR
+{{< polarref >}}
 ```r
 ## Illustrative R code for coding the measure based on the CSES data
 cses_imd <- polaR_import(source = "cses_imd", path = "path/to/dataset.dta")
 
 cses_imd <- api(cses_imd)
 ```
-{{< polarref >}}
-​
+
 ## Visualization
 {{< shinyapp cses api >}}
 

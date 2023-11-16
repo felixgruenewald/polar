@@ -59,6 +59,14 @@
     content: "\f05a";
     color: #00529b;
   }
+  .boxInfo2:before {
+    content: "\f05a";
+    color: #005d14;
+  }
+  .boxInfoGit:before {
+    content: "\f05a";
+    color: rgb(89, 85, 0);
+  }
   .boxPlus:before {
     content: "\f067";
   }
@@ -85,6 +93,13 @@
   }
   
   .boxInfo {
-    background-color: rgba(117, 211, 255, 0.754);
+    background-color: rgba(117, 211, 255, 0.135);
+  }
+  .boxInfo2 {
+    background-color: rgba(12, 66, 0, 0.135)
+  }
+  .boxInfoGit {
+    background-color: rgba(156, 180, 3, 0.135);
+    font-size: small;
   }
   

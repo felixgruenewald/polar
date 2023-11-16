@@ -32,10 +32,10 @@ $$V= \sum_{i=n}^N f_i (x_i - \bar{x})^2$$
 where $N$ is the number of parties, $f_i$ is the vote or seat share of party $i$, $x_i$ is the ideological position of party $i$, and $\bar{x}$ is the weighted average of the positions of all parties. If survey data are used, $x_i$ is determined as the average of all respondents' rankings of party $f$.
 
 ## polaR
+{{< polarref >}}
 ```r
 variance_data <- variance(cses5)
 ```
-{{< polarref >}}
 
 ## Visualization
 {{< shinyapp cses "variance_wgt" >}}

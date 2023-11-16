@@ -29,13 +29,13 @@ $$PI_k = \sqrt{V_{jk} (\frac{P_{jk}-\bar{P_k}}{5})^2 }$$
 where $P_{jk}$ is the left-right position of party $j$ in a country-year sample $k$ and $\bar{P_k}$ is the average position of all parties considered. $V_{jk}$ is the vote share of party $P_{jk}$.
 
 ## polaR
+{{< polarref >}}
 ```r
 # Illustrative R code for coding the measure based on the CSES data
 cses_imd <- polaR_import(source = "cses_imd", path = "path/to/dataset.dta")
 
 cses_imd <- cses_polarisation_index(cses_imd)
 ```
-{{< polarref >}}
 
 ## Visualization
 {{< shinyapp cses "polarization_index" >}}

@@ -37,13 +37,13 @@ $Spread_k = \frac{\sum_{i=1}^n Spread_{ik}}{N_{ik}}$
 This means that the spread of party like-dislike scores at the party system level $k$ is obtained by summing the spread score of all respondents $i$ in a country-year sample $k$ and dividing by the number of respondents $N_k$.
 
 ## polaR
+{{< polarref >}}
 ```r 
 ## Illustrative R code for coding the measure based on the CSES data
 cses_imd <- polaR_import(source = "cses_imd", path = "datasets/cses/cses_imd.dta")
 
 cses_imd <- spread_likedislike(cses_imd)
 ```
-{{< polarref >}}
 
 ## Visualization
 {{< shinyapp cses "spread_like_wgt,spread_like" >}}
