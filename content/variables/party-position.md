@@ -9,11 +9,13 @@ object:
 ---
 ## Variable description
 
-Short 1-2 sentence description of the variable.
+A commonly surveyed item, and therefore used in early measures of ideological polarization such as the [CSES polarization index]({{< ref "polarisation" >}}), this item captures parties' positions on different issues. Most commonly, this means a placement on a left-right scale, but other issue dimensions such as a socioeconomic or ecological one are possible as well. 
+
+Party position scores can come from different sources. Survey data like the CSES asks respondents' about their perception of party positions, expert surveys like the CHES queries the evaluations of experts and Marpor uses codings of party manifestos as the base of their scores. 
 
 ## Datasets & Variants
 ### [CSES]({{< ref "cses" >}})
----
+
 #### LEFT-RIGHT - PARTY A
 _E3019_A_
 
@@ -31,7 +33,7 @@ Further variables: `E3019_B`LEFT_RIGHT - PARTY B, `E3019_C`LEFT_RIGHT - PARTY C,
 -->
 ---
 ### [CHES]({{< ref "ches" >}})
----
+
 #### Overall ideological stance
 _LRGEN_
 
@@ -57,7 +59,7 @@ _GALTAN_
 
 ---
 ### [EES]({{< ref "ees" >}})
----
+
 #### Party Left-Right
 
 **Scale:** 0 (Left) - 10 (Right)
@@ -66,8 +68,8 @@ _GALTAN_
 
 ---
 ### [Marpor]({{< ref "marpor" >}})
----
-###### Party left right
+
+#### Party left right
 _RILE_
 
 **Scale:** ?
@@ -76,9 +78,15 @@ _RILE_
 
 ---
 ## Measures
-Measures that use this variable:
-```dataview
-TABLE Name as "Measure", Polarization, Level
-FROM "measures"
-WHERE contains(variables, "party-position")
-```
+Measures that rely on these items:
+
+| Measure                                                            | Polarization |
+| ------------------------------------------------------------------ | ------------ |
+| [Party-System Compactness]({{< ref "measures/party-system_compactness.md" >}}) | ideological  |
+| [Dispersion]({{< ref "measures/party_system_dispersion.md" >}})                | ideological  |
+| [Party-System Extremism]({{< ref "measures/party-system_extremism.md" >}})     | ideological  |
+| [Polarisation Index]({{< ref "measures/polarisation_index.md" >}})             | ideological  |
+| [Range]({{< ref "measures/range.md" >}})                                       | ideological  |
+| [SD]({{< ref "measures/sd.md" >}})                                             | ideological  |
+| [Variance]({{< ref "measures/variance_weighted.md" >}})                        | ideological  |
+

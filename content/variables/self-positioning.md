@@ -8,12 +8,14 @@ object:
 ---
 ## Variable description
 
-Short 1-2 sentence description of the variable.
+This item asks respondents about their own position on an issue. This can be used to measure the spread of opinions among the electorate (see measure [Standard Deviation]({{< ref "sd" >}})), or to put respondents into relation to the party system and their perception of [party positions]({{< ref "party-position" >}}). 
+
+Self placement items are very broadly available in a wide range of survey datasets. Most commonly, they query respondents' left-right position, but other issue dimensions are also possible.
 
 ## Datasets & Variants
 ### [CSES]({{< ref "cses" >}})
----
-##### LEFT-RIGHT - SELF
+
+#### LEFT-RIGHT - SELF
 _E3020_
 
 **Scale:** 0 (Left) - 10 (Right)
@@ -22,8 +24,8 @@ _E3020_
 
 ---
 ### [European Social Survey]({{< ref "ess" >}})
----
-##### Placement on the left right scale
+
+#### Placement on the left right scale
 _lrscale_
 
 **Scale:** 0 (Left) - 10 (Right)
@@ -32,7 +34,7 @@ _lrscale_
 
 ---
 ### [Eurobarometer]({{< ref "eb" >}})
----
+
 #### Personal left right
 
 **Scale:** 1 (Left) - 10 (Right)
@@ -41,8 +43,8 @@ _lrscale_
 
 ---
 ### [EES]({{< ref "ees" >}})
----
-##### Personal left right
+
+#### Personal left right
 
 **Scale:** 0 (Left) - 10 (Right)
 
@@ -50,8 +52,8 @@ _lrscale_
 
 ---
 ### [World Value Survey]({{< ref "wvs" >}})
----
-##### Self positioning in political scale
+
+#### Self positioning in political scale
 
 **Scale:** 0 (Left) - 10 (Right)
 
@@ -70,9 +72,10 @@ _lrscale_
 > ...?-->
 ---
 ## Measures
-Measure that use this variable:
-```dataview
-TABLE Name as "Measure", Polarization, Level
-FROM "measures"
-WHERE contains(variables, "self-positioning")
-```
+Measures that rely on these items:
+
+| Measure                                                            | Polarization |
+| ------------------------------------------------------------------ | ------------ |
+| [Party-System Compactness]({{< ref "measures/party-system_compactness.md" >}}) | ideological  |
+| [SD]({{< ref "measures/sd.md" >}})                                             | ideological  |
+

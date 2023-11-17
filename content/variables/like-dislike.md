@@ -8,11 +8,13 @@ object:
 ---
 ## Variable description
 
-Short 1-2 sentence description of the variable.
+The like-dislike scale is, in various forms, one of the most common tools to measure affective polarization. Respondents are asked about their feelings towards a range of parties. This allows to get an understanding of their view of the overall party system and to compute measures such as the [spread of likes]({{< ref "spread" >}}) or the [affective polarization index]({{< ref "api" >}}) that try to capture just that.
+
+It can be found in a wider range of datasets, most importantly the [CSES]({{< ref "cses" >}}). Other variations are, e.g., the feeling thermometer in the American National Election Survey which asks for feelings towards parties on a 0-100 scale.
 
 ## Datasets & Variants
 ### [CSES]({{< ref "cses" >}})
----
+
 #### LIKE-DISLIKE PARTY X
 _Label: IMD3008_X, E3017_X_
 
@@ -47,5 +49,13 @@ _E3018_A_
 Further Variables: **E3018_B**LIKE-DISLIKE - LEADER B, **E3018_C**LIKE-DISLIKE - LEADER C, **E3018_D**LIKE-DISLIKE - LEADER D, **E3018_E**LIKE-DISLIKE - LEADER E, **E3018_F**LIKE-DISLIKE - LEADER F, **E3018_G** LIKE-DISLIKE - ADDITIONAL - LEADER G, **E3018_H**LIKE-DISLIKE - ADDITIONAL - LEADER H, **E3018_I**LIKE-DISLIKE - ADDITIONAL -LEADER I.
 -->
 ---
+
 ## Measures
-Measure that use this variable:
+Measures that rely on these items:
+
+| Measure                            | Polarization |
+| ---------------------------------- | ------------ |
+| [API]({{< ref "measures/api.md" >}})           | affective    |
+| [Distance]({{< ref "measures/distance.md" >}}) | affective    |
+| [Spread]({{< ref "measures/spread.md" >}})     | affective    |
+
