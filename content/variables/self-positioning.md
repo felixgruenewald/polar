@@ -8,9 +8,9 @@ object:
 ---
 ## Variable description
 
-This item asks respondents about their own position on an issue. This can be used to measure the spread of opinions among the electorate (see measure [Standard Deviation]({{< ref "sd" >}})), or to put respondents into relation to the party system and their perception of [party positions]({{< ref "party-position" >}}). 
+This item asks respondents about their own position on an issue. It can be used to measure the spread of opinions among the electorate (see measure [Standard Deviation]({{< ref "sd" >}})), or to put respondents into relation to the party system and their perception of [party positions]({{< ref "party-position" >}}). 
 
-Self placement items are very broadly available in a wide range of survey datasets. Most commonly, they query respondents' left-right position, but other issue dimensions are also possible.
+Self-placement items are widely available in a wide range of surveys. Most commonly, they ask respondents about their left-right position, but other issue dimensions are also possible.
 
 ## Datasets & Variants
 ### [CSES]({{< ref "cses" >}})

@@ -8,9 +8,9 @@ object:
 ---
 ## Variable description
 
-The like-dislike scale is, in various forms, one of the most common tools to measure affective polarization. Respondents are asked about their feelings towards a range of parties. This allows to get an understanding of their view of the overall party system and to compute measures such as the [spread of likes]({{< ref "spread" >}}) or the [affective polarization index]({{< ref "api" >}}) that try to capture just that.
+The like-dislike scale is one of the most commonly used tools for measuring affective polarization. Respondents are asked about their feelings towards a number of parties. This allows one to get an understanding of their view of the overall party system, and to compute measures such as the [spread of likes]({{< ref "spread" >}}) or the [affective polarization index]({{< ref "api" >}}) that try to capture just that.
 
-It can be found in a wider range of datasets, most importantly the [CSES]({{< ref "cses" >}}). Other variations are, e.g., the feeling thermometer in the American National Election Survey which asks for feelings towards parties on a 0-100 scale.
+It can be found in a wider range of datasets, most notably the [CSES]({{< ref "cses" >}}). Other variations include, for instance, the feeling thermometer in the American National Election Survey which asks for feelings towards parties on a scale of 0-100.
 
 ## Datasets & Variants
 ### [CSES]({{< ref "cses" >}})

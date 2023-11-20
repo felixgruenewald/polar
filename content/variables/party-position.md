@@ -9,9 +9,9 @@ object:
 ---
 ## Variable description
 
-A commonly surveyed item, and therefore used in early measures of ideological polarization such as the [CSES polarization index]({{< ref "polarisation" >}}), this item captures parties' positions on different issues. Most commonly, this means a placement on a left-right scale, but other issue dimensions such as a socioeconomic or ecological one are possible as well. 
+A commonly surveyed item, and therefore used in early measures of ideological polarization such as the [CSES polarization index]({{< ref "polarisation" >}}), this item captures parties' positions on different issues. Most commonly, this means a placement on a left-right scale, but other issue dimensions such as a socioeconomic, cultural or even environmental one are possible as well. 
 
-Party position scores can come from different sources. Survey data like the CSES asks respondents' about their perception of party positions, expert surveys like the CHES queries the evaluations of experts and Marpor uses codings of party manifestos as the base of their scores. 
+Party position scores can come from a variety of sources. Survey data such as the CSES asks respondents about their perceptions of party positions, expert surveys such as the CHES queries the evaluations of experts and MARPOR uses codings of party manifestos as the basis for its scores. 
 
 ## Datasets & Variants
 ### [CSES]({{< ref "cses" >}})

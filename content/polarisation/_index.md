@@ -1,3 +1,3 @@
 ---
-title: Polarization
+title: Forms of polarization
 ---
