@@ -1,4 +1,4 @@
-baseURL = "https://polrefpolar.netlify.app/"
+baseURL = "https://encyclopediaofpolarization.netlify.app/"
 languageCode = "en-us"
 title = "polaR"
 theme = "digitalgarden"
