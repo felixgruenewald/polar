@@ -19,9 +19,7 @@ The *Encyclopedia* helps researchers navigate the field by categorizing extant a
 
 ## 👥 The team
 
-(anonymized)
-
-<!-- The *Encyclopedia of Polarization* is developed by the Emmy Noether research group "Polarization through and in referendums: mapping polarization within and beyond the party system". This group is based at [Chemnitz University of Technology](https://tu-chemnitz.de/polmeth) and led by [Arndt Leininger](https://aleininger.eu/). [Felix Grünewald](https://felixgruenewald.net/) leads the development of the *Encyclopedia* and ```polaR```. We are supported by our excellent research assistant [Marcel Schneider](https://www.tu-chemnitz.de/phil/politik/pf/professur/Schneider.php.en). 
+The *Encyclopedia of Polarization* is developed by the Emmy Noether research group "Polarization through and in referendums: mapping polarization within and beyond the party system". This group is based at [Chemnitz University of Technology](https://tu-chemnitz.de/polmeth) and led by [Arndt Leininger](https://aleininger.eu/). [Felix Grünewald](https://felixgruenewald.net/) leads the development of the *Encyclopedia* and ```polaR```. We are supported by our excellent research assistant [Marcel Schneider](https://www.tu-chemnitz.de/phil/politik/pf/professur/Schneider.php.en). 
 
 We also work on a literature review on polarization in multiparty systems, which you can find on [SocArXiv](https://osf.io/preprints/socarxiv/mz6rs/):
 
@@ -31,4 +29,3 @@ scrolling="no"
 style="overflow:hidden;height:800;width:100%"
 height="800"
 width="100%"></iframe>
--->
